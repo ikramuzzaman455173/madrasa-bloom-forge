@@ -1,13 +1,22 @@
+@import "swiper/css";
+@import "swiper/css/effect-fade";
+@import "swiper/css/navigation";
+@import "swiper/css/pagination";
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
-/* Definition of the design system. All colors, gradients, fonts, etc should be defined here.
-All colors MUST be HSL.
+/*
+=====================================================================
+ BANGLADESH SCIENCE & TECHNOLOGY MADRASAH — DESIGN SYSTEM v1.0
+ Colors derived from your logo (Green + Magenta)
+ =====================================================================
 */
 
 @layer base {
   :root {
+    /* Base */
     --background: 0 0% 98%;
     --foreground: 150 30% 15%;
 
@@ -17,16 +26,21 @@ All colors MUST be HSL.
     --popover: 0 0% 100%;
     --popover-foreground: 150 30% 15%;
 
-    /* Logo Green Colors */
-    --primary: 150 100% 29%;        /* #009345 */
-    --primary-dark: 150 100% 24%;   /* #00783a */
+    /* ===============================
+       BRAND COLORS — From Your Logo
+       =============================== */
+
+    /* Green (Primary Brand Color) */
+    --primary: 150 100% 29%;          /* #009345 */
+    --primary-dark: 150 100% 24%;     /* #00783a */
     --primary-foreground: 0 0% 100%;
 
-    /* Logo Magenta Colors */
-    --accent: 325 74% 44%;          /* #c2188b */
-    --accent-light: 325 89% 64%;    /* #f04ebc */
+    /* Magenta (Accent Color) */
+    --accent: 325 74% 44%;            /* #c2188b */
+    --accent-light: 325 89% 64%;      /* #f04ebc */
     --accent-foreground: 0 0% 100%;
 
+    /* Supporting Colors */
     --secondary: 150 20% 95%;
     --secondary-foreground: 150 100% 24%;
 
@@ -42,13 +56,19 @@ All colors MUST be HSL.
 
     --radius: 0.5rem;
 
-    /* Custom Design Tokens */
+    /* --------------------------------------
+       CUSTOM TOKENS FOR MODERN UI
+    --------------------------------------*/
+
     --hero-gradient: linear-gradient(135deg, hsl(150 100% 29%), hsl(150 100% 24%));
-    --accent-gradient: linear-gradient(135deg, hsl(325 74% 44%), hsl(325 89% 64%));
+    --accent-gradient: linear-gradient(135deg, hsl(325, 38%, 94%), hsl(325, 100%, 91%));
+
+    /* Depth / Shadows */
     --shadow-soft: 0 2px 8px hsla(150, 30%, 15%, 0.08);
     --shadow-md: 0 4px 16px hsla(150, 30%, 15%, 0.12);
     --shadow-lg: 0 8px 24px hsla(150, 30%, 15%, 0.16);
 
+    /* Sidebar (Dashboard Mode) */
     --sidebar-background: 0 0% 98%;
     --sidebar-foreground: 150 30% 15%;
     --sidebar-primary: 150 100% 29%;
@@ -58,6 +78,10 @@ All colors MUST be HSL.
     --sidebar-border: 150 15% 88%;
     --sidebar-ring: 150 100% 29%;
   }
+
+  /* ==========================================
+     DARK MODE — Ultra Modern Elegant Theme
+     ========================================== */
 
   .dark {
     --background: 150 25% 8%;
