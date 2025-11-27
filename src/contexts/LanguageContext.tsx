@@ -9,80 +9,6 @@ interface LanguageContextType {
   isRTL: boolean;
 }
 
-// const translations = {
-//   en: {
-//     instituteName: 'BANGLADESH SCIENCE AND TECHNOLOGY MADRASA',
-//     tagline: 'Excellence in Islamic Education & Modern Science',
-//     home: 'Home',
-//     about: 'About',
-//     academics: 'Academics',
-//     admission: 'Admission',
-//     notice: 'Notice',
-//     gallery: 'Gallery',
-//     contact: 'Contact',
-//     principal: 'Principal',
-//     principalMessage: "Message from the Principal",
-//     principalText: "Welcome to Bangladesh Science and Technology Madrasa. We are committed to providing quality education that combines Islamic values with modern scientific knowledge. Our institution strives to develop well-rounded students who are equipped for both spiritual and worldly success.",
-//     latestNotices: 'Latest Notices',
-//     calendar: 'Academic Calendar',
-//     quickLinks: 'Quick Links',
-//     aboutUs: 'About Us',
-//     contactInfo: 'Contact Information',
-//     followUs: 'Follow Us',
-//     allRightsReserved: 'All Rights Reserved',
-//     address: 'Address',
-//     phone: 'Phone',
-//     email: 'Email',
-//   },
-//   bn: {
-//     instituteName: 'বাংলাদেশ সায়েন্স এন্ড টেকনোলজি মাদ্রাসা',
-//     tagline: 'ইসলামিক শিক্ষা ও আধুনিক বিজ্ঞানে উৎকর্ষতা',
-//     home: 'হোম',
-//     about: 'পরিচিতি',
-//     academics: 'শিক্ষা',
-//     admission: 'ভর্তি',
-//     notice: 'নোটিশ',
-//     gallery: 'গ্যালারি',
-//     contact: 'যোগাযোগ',
-//     principal: 'অধ্যক্ষ',
-//     principalMessage: "অধ্যক্ষের বাণী",
-//     principalText: "বাংলাদেশ সায়েন্স এন্ড টেকনোলজি মাদ্রাসায় আপনাকে স্বাগতম। আমরা ইসলামিক মূল্যবোধের সাথে আধুনিক বৈজ্ঞানিক জ্ঞান সমন্বিত মানসম্পন্ন শিক্ষা প্রদানে প্রতিশ্রুতিবদ্ধ। আমাদের প্রতিষ্ঠান আধ্যাত্মিক এবং পার্থিব উভয় সাফল্যের জন্য প্রস্তুত সুসজ্জিত শিক্ষার্থী তৈরি করতে প্রচেষ্টা চালায়।",
-//     latestNotices: 'সর্বশেষ নোটিশ',
-//     calendar: 'একাডেমিক ক্যালেন্ডার',
-//     quickLinks: 'দ্রুত লিংক',
-//     aboutUs: 'আমাদের সম্পর্কে',
-//     contactInfo: 'যোগাযোগের তথ্য',
-//     followUs: 'আমাদের অনুসরণ করুন',
-//     allRightsReserved: 'সর্বস্বত্ব সংরক্ষিত',
-//     address: 'ঠিকানা',
-//     phone: 'ফোন',
-//     email: 'ইমেইল',
-//   },
-//   ar: {
-//     instituteName: 'مدرسة بنغلاديش للعلوم والتكنولوجيا',
-//     tagline: 'التميز في التعليم الإسلامي والعلوم الحديثة',
-//     home: 'الرئيسية',
-//     about: 'حول',
-//     academics: 'الأكاديميون',
-//     admission: 'القبول',
-//     notice: 'إشعار',
-//     gallery: 'المعرض',
-//     contact: 'اتصل',
-//     principal: 'المدير',
-//     principalMessage: "رسالة من المدير",
-//     principalText: "مرحبا بكم في مدرسة بنغلاديش للعلوم والتكنولوجيا. نحن ملتزمون بتوفير تعليم عالي الجودة يجمع بين القيم الإسلامية والمعرفة العلمية الحديثة. تسعى مؤسستنا إلى تطوير طلاب متكاملين مجهزين للنجاح الروحي والدنيوي.",
-//     latestNotices: 'أحدث الإشعارات',
-//     calendar: 'التقويم الأكاديمي',
-//     quickLinks: 'روابط سريعة',
-//     aboutUs: 'معلومات عنا',
-//     contactInfo: 'معلومات الاتصال',
-//     followUs: 'تابعنا',
-//     allRightsReserved: 'كل الحقوق محفوظة',
-//     address: 'العنوان',
-//     phone: 'هاتف',
-//     email: 'البريد الإلكتروني',
-//   },
-// };
 
 const translations = {
   en: {
@@ -136,6 +62,32 @@ const translations = {
     contactInfo: "Contact Information",
     followUs: "Follow Us",
     allRightsReserved: "All Rights Reserved",
+
+    /** FEATURES SECTION **/
+featuresAcademicTitle: "Academic Excellence",
+featuresAcademicText:
+  "Our curriculum combines traditional Islamic studies with modern scientific education, preparing students for both spiritual and worldly success.",
+
+featuresFacilitiesTitle: "Modern Facilities",
+featuresFacilitiesText:
+  "Digital classrooms, modern labs, and an extensive library provide academic support to enhance student learning.",
+
+featuresHolisticTitle: "Holistic Development",
+featuresHolisticText:
+  "We shape students through leadership training, ethics, emotional intelligence, and character-building activities.",
+
+featuresCoCurricularTitle: "Co-Curricular Activities",
+featuresCoCurricularText:
+  "Students join sports, debates, robotics, Quran competitions, and creative arts to develop practical life skills.",
+
+featuresTeachersTitle: "Qualified & Caring Teachers",
+featuresTeachersText:
+  "Our experienced educators provide personal guidance using modern and effective teaching methods.",
+
+featuresSafetyTitle: "Safe & Supportive Campus",
+featuresSafetyText:
+  "A secure campus, positive discipline, and emotional support help students learn and grow with confidence.",
+
 
     /** FOOTER **/
     address: "Address",
@@ -195,6 +147,31 @@ const translations = {
     followUs: "আমাদের অনুসরণ করুন",
     allRightsReserved: "সর্বস্বত্ব সংরক্ষিত",
 
+    /** FEATURES SECTION **/
+featuresAcademicTitle: "শিক্ষাগত উৎকর্ষতা",
+featuresAcademicText:
+  "আমাদের পাঠ্যক্রমে ঐতিহ্যবাহী ইসলামিক শিক্ষা ও আধুনিক বৈজ্ঞানিক জ্ঞানের সমন্বয় রয়েছে, যা শিক্ষার্থীদের আধ্যাত্মিক ও পার্থিব সফলতার জন্য প্রস্তুত করে।",
+
+featuresFacilitiesTitle: "আধুনিক সুবিধাসমূহ",
+featuresFacilitiesText:
+  "ডিজিটাল ক্লাসরুম, আধুনিক ল্যাব এবং সমৃদ্ধ লাইব্রেরি শিক্ষার্থীদের শেখার অভিজ্ঞতা উন্নত করতে সহায়তা করে।",
+
+featuresHolisticTitle: "সামগ্রিক উন্নয়ন",
+featuresHolisticText:
+  "নেতৃত্ব প্রশিক্ষণ, নীতি-নৈতিকতা, আবেগীয় বুদ্ধিমত্তা এবং চরিত্র গঠনের কার্যক্রমের মাধ্যমে আমরা শিক্ষার্থীদের গড়ে তুলি।",
+
+featuresCoCurricularTitle: "সহশিক্ষা কার্যক্রম",
+featuresCoCurricularText:
+  "ক্রীড়া, বিতর্ক, রোবোটিক্স, কোরআন প্রতিযোগিতা এবং সৃজনশীল শিল্পকর্মে অংশগ্রহণের মাধ্যমে শিক্ষার্থীরা প্রায়োগিক জীবন দক্ষতা অর্জন করে।",
+
+featuresTeachersTitle: "যোগ্য ও যত্নশীল শিক্ষকবৃন্দ",
+featuresTeachersText:
+  "আমাদের অভিজ্ঞ শিক্ষকেরা আধুনিক ও কার্যকর পদ্ধতিতে শিক্ষার্থীদের ব্যক্তিগত নির্দেশনা প্রদান করেন।",
+
+featuresSafetyTitle: "নিরাপদ ও সহায়ক ক্যাম্পাস",
+featuresSafetyText:
+  "একটি নিরাপদ পরিবেশ, ইতিবাচক শৃঙ্খলা এবং মানসিক সহায়তা শিক্ষার্থীদের আত্মবিশ্বাসের সাথে শেখা ও বেড়ে উঠতে সহায়তা করে।",
+
     /** FOOTER **/
     address: "ঠিকানা",
     phone: "ফোন",
@@ -253,6 +230,32 @@ applyNow: "سجل الآن",
     contactInfo: "معلومات الاتصال",
     followUs: "تابعنا",
     allRightsReserved: "جميع الحقوق محفوظة",
+
+    /** FEATURES SECTION **/
+featuresAcademicTitle: "التميز الأكاديمي",
+featuresAcademicText:
+  "يجمع منهجنا بين الدراسات الإسلامية التقليدية والتعليم العلمي الحديث، مما يُعدّ الطلاب للنجاح الروحي والدنيوي.",
+
+featuresFacilitiesTitle: "مرافق حديثة",
+featuresFacilitiesText:
+  "توفر الفصول الرقمية والمختبرات الحديثة والمكتبة الواسعة دعمًا أكاديميًا يعزز تعلم الطلاب.",
+
+featuresHolisticTitle: "التنمية الشاملة",
+featuresHolisticText:
+  "نطوّر الطلاب من خلال تدريب القيادة والأخلاق والذكاء العاطفي وأنشطة بناء الشخصية.",
+
+featuresCoCurricularTitle: "الأنشطة اللاصفية",
+featuresCoCurricularText:
+  "يشارك الطلاب في الرياضة والمناظرات والروبوتات ومسابقة القرآن والفنون الإبداعية لاكتساب مهارات حياتية عملية.",
+
+featuresTeachersTitle: "معلمون مؤهلون وودودون",
+featuresTeachersText:
+  "يوفر معلمونا ذوو الخبرة التوجيه الشخصي باستخدام أساليب تعليمية حديثة وفعّالة.",
+
+featuresSafetyTitle: "حرم آمن وداعم",
+featuresSafetyText:
+  "يساعد الحرم الآمن والانضباط الإيجابي والدعم العاطفي الطلاب على التعلم والنمو بثقة.",
+
 
     /** FOOTER **/
     address: "العنوان",
