@@ -16,26 +16,88 @@ const translations = {
     instituteName: "BANGLADESH SCIENCE AND TECHNOLOGY MADRASA",
     tagline: "Excellence in Islamic Education & Modern Science",
 
-    /** NAVBAR MAIN **/
-    home: "Home",
-    about: "About",
-    academics: "Academics",
-    admission: "Admission",
-    notice: "Notice",
-    gallery: "Gallery",
-    contact: "Contact",
+   /** NAVBAR MAIN **/
+home: "Home",
+about: "About",
+academics: "Academics",
+admission: "Admission",
+residential: "Residential",
+publication: "Publication",
+library: "Library",
+branches: "Branches",
+media: "Media",
+contact: "Contact",
+login: "Login",
 
-    /** NAVBAR SUBMENUS — ABOUT **/
-    history: "Our History",
-    missionVision: "Mission & Vision",
-    administration: "Administration",
-    faculty: "Faculty Members",
+/** SUBMENU — ABOUT **/
+about_overview: "Institution Overview",
+about_principal: "Principal's Message & Biography",
+about_features: "Features",
+about_establishmentPlan: "Establishment Plan",
+about_mission: "Mission & Objectives",
+about_governingBody: "Governing Body",
+about_complex: "Campus Complex",
+about_teachers: "Teachers Information",
+about_officers: "Officers & Staff",
 
-    /** NAVBAR SUBMENUS — ACADEMICS **/
-    curriculum: "Curriculum",
-    routine: "Class Routine",
-    departments: "Departments",
-    calendar: "Academic Calendar",
+/** SUBMENU — ACADEMICS **/
+ac_classTeachers: "List of Class Teachers",
+ac_levels: "Education Levels",
+ac_curriculum: "Curriculum",
+ac_cocurriculum: "Co-Curriculum",
+ac_functions: "Programs & Events",
+ac_results: "Results",
+ac_examMethod: "Examination Method",
+ac_holidayList: "Holiday List",
+ac_examRoutine: "Exam Routine",
+ac_classRoutine: "Class Routine",
+
+/** SUBMENU — ADMISSION **/
+admission_time: "Admission Time",
+admission_test: "Admission Test",
+admission_procedure: "Admission Procedure",
+admission_fees: "Fees by Class",
+admission_terms: "Admission Requirements",
+
+/** SUBMENU — RESIDENTIAL **/
+res_hostelIntro: "Hostel Introduction",
+res_directors: "Residential Halls & Directors",
+res_rules: "Housing Rules",
+res_charges: "Housing Charges",
+res_policies: "Residential Policies",
+res_dailySchedule: "Daily Residential Schedule",
+
+/** SUBMENU — PUBLICATION **/
+pub_newBikash: "Monthly New Bikash",
+pub_eventSchedule: "Event Schedule",
+pub_studyTour: "Study Tour Souvenir",
+pub_yearlyActivity: "Yearly Activities",
+pub_academicCalendar: "Academic Calendar",
+pub_sautunNajat: "Quarterly Sautun Najat",
+pub_wallMagazine: "Wall Magazine",
+pub_others: "Others",
+
+/** SUBMENU — LIBRARY **/
+lib_intro: "Library Introduction",
+lib_catalog: "Catalog",
+lib_policy: "Policies",
+
+/** SUBMENU — BRANCHES **/
+br_takhssusi: "Takhssusi Branch",
+br_women: "Women’s Branch",
+br_hifz: "Hifz Section",
+br_orphanage: "Orphanage",
+br_kitab: "Kitab Department",
+
+/** SUBMENU — MEDIA **/
+media_photos: "Photo Gallery",
+media_videos: "Video Gallery",
+
+/** SUBMENU — LOGIN **/
+login_student: "Student/Guardian",
+login_teacher: "Teacher",
+login_software: "Software Login",
+login_admin: "Website Admin",
 
     /* HERO SECTION */
     heroSlide1Title: "Welcome to Our Institution",
@@ -101,25 +163,87 @@ featuresSafetyText:
     tagline: "ইসলামিক শিক্ষা ও আধুনিক বিজ্ঞানে উৎকর্ষতা",
 
     /** NAVBAR MAIN **/
-    home: "হোম",
-    about: "পরিচিতি",
-    academics: "শিক্ষা",
-    admission: "ভর্তি",
-    notice: "নোটিশ",
-    gallery: "গ্যালারি",
-    contact: "যোগাযোগ",
+home: "হোম",
+about: "পরিচিতি",
+academics: "একাডেমিক",
+admission: "ভর্তি",
+residential: "আবাসন",
+publication: "প্রকাশনা",
+library: "লাইব্রেরি",
+branches: "শাখা প্রতিষ্ঠান",
+media: "মিডিয়া",
+contact: "যোগাযোগ",
+login: "লগইন",
 
-    /** NAVBAR SUBMENUS — ABOUT **/
-    history: "আমাদের ইতিহাস",
-    missionVision: "লক্ষ্য ও উদ্দেশ্য",
-    administration: "প্রশাসন",
-    faculty: "শিক্ষকবৃন্দ",
+/** SUBMENU — ABOUT **/
+about_overview: "এক নাজরে মাদরাসা",
+about_principal: "অধ্যক্ষের বাণী ও সংক্ষিপ্ত জীবনবৃত্তান্ত",
+about_features: "বৈশিষ্ট্য",
+about_establishmentPlan: "প্রতিষ্ঠার পরিকল্পনা",
+about_mission: "প্রতিষ্ঠার লক্ষ্য",
+about_governingBody: "গভর্নিং বডি",
+about_complex: "কমপ্লেক্স",
+about_teachers: "শিক্ষকমন্ডলীর তথ্যবলী",
+about_officers: "কর্মকর্তা ও কর্মচারী",
 
-    /** NAVBAR SUBMENUS — ACADEMICS **/
-    curriculum: "পাঠ্যক্রম",
-    routine: "ক্লাস রুটিন",
-    departments: "বিভাগসমূহ",
-    calendar: "একাডেমিক ক্যালেন্ডার",
+/** SUBMENU — ACADEMICS **/
+ac_classTeachers: "শ্রেণী শিক্ষক এর তালিকা",
+ac_levels: "শিক্ষা স্তর",
+ac_curriculum: "পাঠ্যক্রম",
+ac_cocurriculum: "সহ-পাঠ্যক্রম",
+ac_functions: "অনুষ্ঠানমালা",
+ac_results: "ফলাফল",
+ac_examMethod: "পরীক্ষা পদ্ধতি",
+ac_holidayList: "ছুটির তালিকা",
+ac_examRoutine: "পরীক্ষার রুটিন",
+ac_classRoutine: "ক্লাস রুটিন",
+
+/** SUBMENU — ADMISSION **/
+admission_time: "ভর্তির সময়",
+admission_test: "ভর্তি পরিক্ষা",
+admission_procedure: "ভর্তি প্রক্রিয়া",
+admission_fees: "জামাআত ওয়ারী বিভিন্ন ফি",
+admission_terms: "ভর্তির শর্তাবলী",
+
+/** SUBMENU — RESIDENTIAL **/
+res_hostelIntro: "ছাত্রাবাস পরিচিতি",
+res_directors: "আবাসিক হল ও পরিচালকবৃন্দ",
+res_rules: "আবাসন প্রাপ্তির নিয়মাবলী",
+res_charges: "আবাসন চার্জ",
+res_policies: "আবাসিক নীতিমালা",
+res_dailySchedule: "দৈনিক আবাসিক কার্যসূচি",
+
+/** SUBMENU — PUBLICATION **/
+pub_newBikash: "মাসিক নতুন বিকাশ",
+pub_eventSchedule: "ইভেন্ট সিডিউল",
+pub_studyTour: "শিক্ষাসফর স্মারক",
+pub_yearlyActivity: "বার্ষিক কার্যক্রম",
+pub_academicCalendar: "একাডেমিক ক্যালেন্ডার",
+pub_sautunNajat: "ত্রৈ মাসিক সাওতুন নাজাত",
+pub_wallMagazine: "দেয়ালিকা",
+pub_others: "অন্যান্য",
+
+/** SUBMENU — LIBRARY **/
+lib_intro: "মাকতাবা পরিচিতি",
+lib_catalog: "ক্যাটালগ",
+lib_policy: "নীতিমালা",
+
+/** SUBMENU — BRANCHES **/
+br_takhssusi: "তাখসীসি শাখা",
+br_women: "মহিলা শাখা",
+br_hifz: "নেছারিয়া হেফজখানা",
+br_orphanage: "ছালেহিয়া এতিমখানা",
+br_kitab: "কিতাব বিভাগ",
+
+/** SUBMENU — MEDIA **/
+media_photos: "ফটোগ্যালারী",
+media_videos: "ভিডিও গ্যালারি",
+
+/** SUBMENU — LOGIN **/
+login_student: "শিক্ষার্থী/অভিভাবক",
+login_teacher: "শিক্ষক",
+login_software: "সফটওয়্যার লগইন",
+login_admin: "ওয়েবসাইট অ্যাডমিন",
 
     /* HERO SECTION */
     heroSlide1Title: "আমাদের প্রতিষ্ঠানে স্বাগতম",
@@ -184,25 +308,87 @@ featuresSafetyText:
     tagline: "التميز في التعليم الإسلامي والعلوم الحديثة",
 
     /** NAVBAR MAIN **/
-    home: "الرئيسية",
-    about: "حول",
-    academics: "الأكاديميون",
-    admission: "القبول",
-    notice: "الإشعارات",
-    gallery: "المعرض",
-    contact: "اتصل بنا",
+home: "الرئيسية",
+about: "التعريف",
+academics: "الأكاديميات",
+admission: "القبول",
+residential: "السكن",
+publication: "النشر",
+library: "المكتبة",
+branches: "الفروع",
+media: "الإعلام",
+contact: "اتصل بنا",
+login: "تسجيل الدخول",
 
-    /** NAVBAR SUBMENUS — ABOUT **/
-    history: "تاريخنا",
-    missionVision: "الرؤية والرسالة",
-    administration: "الإدارة",
-    faculty: "الهيئة التدريسية",
+/** SUBMENU — ABOUT **/
+about_overview: "نظرة عامة على المؤسسة",
+about_principal: "رسالة المدير والسيرة الذاتية",
+about_features: "الميزات",
+about_establishmentPlan: "خطة التأسيس",
+about_mission: "الأهداف والرسالة",
+about_governingBody: "مجلس الإدارة",
+about_complex: "المجمع",
+about_teachers: "معلومات المعلمين",
+about_officers: "الضباط والموظفون",
 
-    /** NAVBAR SUBMENUS — ACADEMICS **/
-    curriculum: "المنهج الدراسي",
-    routine: "جدول الحصص",
-    departments: "الأقسام",
-    calendar: "التقويم الأكاديمي",
+/** SUBMENU — ACADEMICS **/
+ac_classTeachers: "قائمة معلمي الصفوف",
+ac_levels: "المستويات التعليمية",
+ac_curriculum: "المنهج الدراسي",
+ac_cocurriculum: "الأنشطة المساندة",
+ac_functions: "البرامج والفعاليات",
+ac_results: "النتائج",
+ac_examMethod: "نظام الامتحانات",
+ac_holidayList: "قائمة الإجازات",
+ac_examRoutine: "جدول الامتحانات",
+ac_classRoutine: "جدول الحصص",
+
+/** SUBMENU — ADMISSION **/
+admission_time: "مواعيد القبول",
+admission_test: "اختبار القبول",
+admission_procedure: "إجراءات القبول",
+admission_fees: "الرسوم حسب الصف",
+admission_terms: "شروط القبول",
+
+/** SUBMENU — RESIDENTIAL **/
+res_hostelIntro: "مقدمة السكن",
+res_directors: "السكن الداخلي والمديرون",
+res_rules: "قوانين السكن",
+res_charges: "رسوم السكن",
+res_policies: "سياسات السكن",
+res_dailySchedule: "الجدول اليومي للسكن",
+
+/** SUBMENU — PUBLICATION **/
+pub_newBikash: "مجلة التطوير الشهرية",
+pub_eventSchedule: "جدول الفعاليات",
+pub_studyTour: "كتيب رحلة الدراسة",
+pub_yearlyActivity: "الأنشطة السنوية",
+pub_academicCalendar: "التقويم الأكاديمي",
+pub_sautunNajat: "مجلة سوتون نجات الفصلية",
+pub_wallMagazine: "مجلة الحائط",
+pub_others: "أخرى",
+
+/** SUBMENU — LIBRARY **/
+lib_intro: "مقدمة المكتبة",
+lib_catalog: "الفهرس",
+lib_policy: "السياسات",
+
+/** SUBMENU — BRANCHES **/
+br_takhssusi: "فرع التخصص",
+br_women: "فرع النساء",
+br_hifz: "قسم التحفيظ",
+br_orphanage: "اليتيم خانة",
+br_kitab: "قسم الكتب",
+
+/** SUBMENU — MEDIA **/
+media_photos: "معرض الصور",
+media_videos: "معرض الفيديو",
+
+/** SUBMENU — LOGIN **/
+login_student: "الطالب / ولي الأمر",
+login_teacher: "المعلم",
+login_software: "تسجيل دخول النظام",
+login_admin: "مدير الموقع",
 
     /* HERO SECTION */
 
