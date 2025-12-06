@@ -533,6 +533,20 @@ const translations = {
     brKitabTitle: "Kitab Branch",
     brKitabSubtitle: "Classical Islamic Texts",
     brKitabText: "In-depth study of classical Islamic texts and literature for advanced students of Islamic knowledge.",
+
+    /** =============================================
+     *  MEDIA SECTION PAGES
+     * ============================================= */
+
+    // Photos Page
+    mediaPhotosTitle: "Photo Gallery",
+    mediaPhotosSubtitle: "Moments from Our Institution",
+    mediaPhotosIntro: "Explore our vibrant campus life, academic activities, cultural events, and memorable moments captured through our photo gallery.",
+
+    // Videos Page
+    mediaVideosTitle: "Video Gallery",
+    mediaVideosSubtitle: "Watch Our Events & Activities",
+    mediaVideosIntro: "Discover our institutional activities, special events, student achievements, and educational programs through our video collection.",
   },
 
   bn: {
@@ -1055,6 +1069,20 @@ const translations = {
     brKitabTitle: "কিতাব শাখা",
     brKitabSubtitle: "ক্লাসিক্যাল ইসলামিক গ্রন্থ",
     brKitabText: "ইসলামিক জ্ঞানের উন্নত শিক্ষার্থীদের জন্য ক্লাসিক্যাল ইসলামিক গ্রন্থ এবং সাহিত্যের গভীর অধ্যয়ন।",
+
+    /** =============================================
+     *  MEDIA SECTION PAGES (বাংলা)
+     * ============================================= */
+
+    // ফটো পেজ
+    mediaPhotosTitle: "ফটো গ্যালারি",
+    mediaPhotosSubtitle: "আমাদের প্রতিষ্ঠানের মুহূর্ত",
+    mediaPhotosIntro: "আমাদের সক্রিয় ক্যাম্পাস জীবন, একাডেমিক কার্যক্রম, সাংস্কৃতিক অনুষ্ঠান এবং স্মরণীয় মুহূর্তগুলি আমাদের ফটো গ্যালারিতে দেখুন।",
+
+    // ভিডিও পেজ
+    mediaVideosTitle: "ভিডিও গ্যালারি",
+    mediaVideosSubtitle: "আমাদের ইভেন্ট ও কার্যক্রম দেখুন",
+    mediaVideosIntro: "আমাদের প্রাতিষ্ঠানিক কার্যক্রম, বিশেষ অনুষ্ঠান, শিক্ষার্থীদের অর্জন এবং শিক্ষামূলক প্রোগ্রামগুলি আমাদের ভিডিও সংগ্রহে আবিষ্কার করুন।",
   },
 
   ar: {
@@ -1579,6 +1607,20 @@ const translations = {
     brKitabTitle: "فرع الكتاب",
     brKitabSubtitle: "النصوص الإسلامية الكلاسيكية",
     brKitabText: "دراسة متعمقة للنصوص والأدب الإسلامي الكلاسيكي للطلاب المتقدمين في المعرفة الإسلامية.",
+
+    /** =============================================
+     *  MEDIA SECTION PAGES (عربي)
+     * ============================================= */
+
+    // صفحة الصور
+    mediaPhotosTitle: "معرض الصور",
+    mediaPhotosSubtitle: "لحظات من مؤسستنا",
+    mediaPhotosIntro: "استكشف حياة الحرم الجامعي النابضة بالحياة والأنشطة الأكاديمية والفعاليات الثقافية واللحظات التي لا تُنسى من خلال معرض الصور الخاص بنا.",
+
+    // صفحة الفيديو
+    mediaVideosTitle: "معرض الفيديو",
+    mediaVideosSubtitle: "شاهد فعالياتنا وأنشطتنا",
+    mediaVideosIntro: "اكتشف أنشطتنا المؤسسية والفعاليات الخاصة وإنجازات الطلاب والبرامج التعليمية من خلال مجموعة الفيديو الخاصة بنا.",
   }
 };
 

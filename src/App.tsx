@@ -70,6 +70,10 @@ import HifzBranch from "./pages/branches/HifzBranch";
 import OrphanageBranch from "./pages/branches/OrphanageBranch";
 import KitabBranch from "./pages/branches/KitabBranch";
 
+// Media Section Pages
+import PhotoGallery from "./pages/media/PhotoGallery";
+import VideoGallery from "./pages/media/VideoGallery";
+
 const queryClient = new QueryClient();
 
 const App = () => (
@@ -141,6 +145,10 @@ const App = () => (
             <Route path="/branches/hifz" element={<HifzBranch />} />
             <Route path="/branches/orphanage" element={<OrphanageBranch />} />
             <Route path="/branches/kitab" element={<KitabBranch />} />
+
+            {/* Media Section Routes */}
+            <Route path="/media/photos" element={<PhotoGallery />} />
+            <Route path="/media/videos" element={<VideoGallery />} />
 
             {/* Other Pages */}
             <Route path="/contact" element={<ContactPage />} />
