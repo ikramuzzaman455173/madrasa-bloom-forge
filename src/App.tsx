@@ -40,6 +40,24 @@ import AdmissionProcedure from "./pages/admission/AdmissionProcedure";
 import AdmissionFees from "./pages/admission/AdmissionFees";
 import AdmissionTerms from "./pages/admission/AdmissionTerms";
 
+// Residential Section Pages
+import HostelIntro from "./pages/residential/HostelIntro";
+import HostelDirectors from "./pages/residential/HostelDirectors";
+import HostelRules from "./pages/residential/HostelRules";
+import HostelCharges from "./pages/residential/HostelCharges";
+import HostelPolicies from "./pages/residential/HostelPolicies";
+import DailySchedule from "./pages/residential/DailySchedule";
+
+// Publication Section Pages
+import NewBikash from "./pages/publication/NewBikash";
+import EventSchedule from "./pages/publication/EventSchedule";
+import StudyTour from "./pages/publication/StudyTour";
+import YearlyActivity from "./pages/publication/YearlyActivity";
+import AcademicCalendar from "./pages/publication/AcademicCalendar";
+import SautunNajat from "./pages/publication/SautunNajat";
+import WallMagazine from "./pages/publication/WallMagazine";
+import Others from "./pages/publication/Others";
+
 const queryClient = new QueryClient();
 
 const App = () => (
@@ -81,6 +99,24 @@ const App = () => (
             <Route path="/admission/procedure" element={<AdmissionProcedure />} />
             <Route path="/admission/fees" element={<AdmissionFees />} />
             <Route path="/admission/terms" element={<AdmissionTerms />} />
+
+            {/* Residential Section Routes */}
+            <Route path="/residential/hostel-intro" element={<HostelIntro />} />
+            <Route path="/residential/directors" element={<HostelDirectors />} />
+            <Route path="/residential/rules" element={<HostelRules />} />
+            <Route path="/residential/charges" element={<HostelCharges />} />
+            <Route path="/residential/policies" element={<HostelPolicies />} />
+            <Route path="/residential/daily-schedule" element={<DailySchedule />} />
+
+            {/* Publication Section Routes */}
+            <Route path="/publication/new-bikash" element={<NewBikash />} />
+            <Route path="/publication/event-schedule" element={<EventSchedule />} />
+            <Route path="/publication/study-tour" element={<StudyTour />} />
+            <Route path="/publication/yearly-activity" element={<YearlyActivity />} />
+            <Route path="/publication/academic-calendar" element={<AcademicCalendar />} />
+            <Route path="/publication/sautun-najat" element={<SautunNajat />} />
+            <Route path="/publication/wall-magazine" element={<WallMagazine />} />
+            <Route path="/publication/others" element={<Others />} />
 
             {/* Other Pages */}
             <Route path="/contact" element={<ContactPage />} />

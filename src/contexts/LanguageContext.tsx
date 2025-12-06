@@ -408,6 +408,86 @@ const translations = {
     requiredDocuments: "Required Documents",
     admissionRules: "Admission Rules",
     withdrawalPolicy: "Withdrawal Policy",
+
+    /** =============================================
+     *  RESIDENTIAL SECTION PAGES
+     * ============================================= */
+
+    // 1. Hostel Introduction
+    hostelIntroTitle: "Hostel Introduction",
+    hostelIntroSubtitle: "Your Home Away From Home",
+    hostelIntroText: "Our residential facilities provide a safe, comfortable, and supportive living environment for students, fostering academic excellence and character development.",
+    hostelFacilities: "Hostel Facilities",
+    hostelCapacity: "Hostel Capacity",
+    hostelRooms: "Room Types",
+
+    // 2. Hostel Directors
+    hostelDirectorsTitle: "Hostel Directors & Staff",
+    hostelDirectorsSubtitle: "Dedicated Care & Supervision",
+    hostelDirectorsIntro: "Our experienced hostel directors and wardens ensure the well-being, safety, and moral development of all resident students.",
+    maleHostelDirector: "Male Hostel Director",
+    femaleHostelDirector: "Female Hostel Director",
+    hostelWardens: "Hostel Wardens",
+    hostelSupportStaff: "Support Staff",
+
+    // 3. Hostel Rules
+    hostelRulesTitle: "Hostel Rules & Regulations",
+    hostelRulesSubtitle: "Guidelines for Harmonious Living",
+    hostelRulesIntro: "These rules are designed to maintain discipline, ensure safety, and create a conducive environment for study and personal growth.",
+    generalRules: "General Rules",
+    disciplineRules: "Discipline & Conduct",
+    studyHours: "Study Hours",
+    visitingRules: "Visiting Rules",
+
+    // 4. Hostel Charges
+    hostelChargesTitle: "Hostel Charges",
+    hostelChargesSubtitle: "Affordable Residential Fees",
+    hostelChargesIntro: "Our hostel fee structure is designed to be affordable while providing quality accommodation and services.",
+    admissionCharge: "Admission Charge",
+    monthlyCharge: "Monthly Charge",
+    securityDeposit: "Security Deposit",
+    mealCharges: "Meal Charges",
+    utilityCharges: "Utility Charges",
+
+    // 5. Hostel Policies
+    hostelPoliciesTitle: "Hostel Policies",
+    hostelPoliciesSubtitle: "Important Policy Guidelines",
+    hostelPoliciesIntro: "Please familiarize yourself with our hostel policies to ensure a smooth residential experience.",
+    admissionPolicy: "Admission Policy",
+    refundPolicy: "Refund Policy",
+    disciplinaryPolicy: "Disciplinary Policy",
+    emergencyPolicy: "Emergency Policy",
+
+    // 6. Daily Schedule
+    dailyScheduleTitle: "Daily Schedule",
+    dailyScheduleSubtitle: "Structured Routine for Success",
+    dailyScheduleIntro: "Our daily schedule balances academics, worship, physical activities, and rest to ensure holistic development.",
+    morningRoutine: "Morning Routine",
+    academicTime: "Academic Time",
+    eveningActivities: "Evening Activities",
+    nightRoutine: "Night Routine",
+
+    /** =============================================
+     *  PUBLICATION SECTION PAGES
+     * ============================================= */
+
+    // Publications
+    pubNewBikashTitle: "Naya Bikash Magazine",
+    pubNewBikashSubtitle: "Our Monthly Publication",
+    pubEventScheduleTitle: "Event Schedule",
+    pubEventScheduleSubtitle: "Upcoming Programs & Activities",
+    pubStudyTourTitle: "Study Tour",
+    pubStudyTourSubtitle: "Educational Excursions",
+    pubYearlyActivityTitle: "Yearly Activities Report",
+    pubYearlyActivitySubtitle: "Annual Achievements & Events",
+    pubAcademicCalendarTitle: "Academic Calendar",
+    pubAcademicCalendarSubtitle: "Important Academic Dates",
+    pubSautunNajatTitle: "Sautun Najat",
+    pubSautunNajatSubtitle: "Islamic Guidance Publication",
+    pubWallMagazineTitle: "Wall Magazine",
+    pubWallMagazineSubtitle: "Student Creativity Showcase",
+    pubOthersTitle: "Other Publications",
+    pubOthersSubtitle: "Additional Reading Materials",
   },
 
   bn: {
@@ -806,6 +886,64 @@ const translations = {
     requiredDocuments: "প্রয়োজনীয় কাগজপত্র",
     admissionRules: "ভর্তির নিয়মাবলী",
     withdrawalPolicy: "প্রত্যাহার নীতি",
+
+    /** =============================================
+     *  RESIDENTIAL SECTION PAGES (বাংলা)
+     * ============================================= */
+
+    // 1. হোস্টেল পরিচিতি
+    hostelIntroTitle: "হোস্টেল পরিচিতি",
+    hostelIntroSubtitle: "আপনার দ্বিতীয় ঘর",
+    hostelIntroText: "আমাদের আবাসিক সুবিধাসমূহ শিক্ষার্থীদের জন্য একটি নিরাপদ, আরামদায়ক এবং সহায়ক জীবনযাত্রার পরিবেশ প্রদান করে, যা একাডেমিক উৎকর্ষতা এবং চরিত্র উন্নয়নে সহায়তা করে।",
+    hostelFacilities: "হোস্টেল সুবিধা",
+    hostelCapacity: "হোস্টেল ধারণক্ষমতা",
+    hostelRooms: "রুমের ধরন",
+
+    // 2. হোস্টেল পরিচালক
+    hostelDirectorsTitle: "হোস্টেল পরিচালক ও কর্মীবৃন্দ",
+    hostelDirectorsSubtitle: "নিবেদিত যত্ন ও তত্ত্বাবধান",
+    hostelDirectorsIntro: "আমাদের অভিজ্ঞ হোস্টেল পরিচালক এবং ওয়ার্ডেনরা সকল আবাসিক শিক্ষার্থীদের কল্যাণ, নিরাপত্তা এবং নৈতিক উন্নয়ন নিশ্চিত করেন।",
+    maleHostelDirector: "ছাত্র হোস্টেল পরিচালক",
+    femaleHostelDirector: "ছাত্রী হোস্টেল পরিচালক",
+    hostelWardens: "হোস্টেল ওয়ার্ডেন",
+    hostelSupportStaff: "সহায়ক কর্মী",
+
+    // 3. হোস্টেল নিয়মাবলী
+    hostelRulesTitle: "হোস্টেল নিয়ম ও বিধিমালা",
+    hostelRulesSubtitle: "সুসামঞ্জস্যপূর্ণ জীবনযাপনের নির্দেশিকা",
+    hostelRulesIntro: "এই নিয়মগুলি শৃঙ্খলা বজায় রাখতে, নিরাপত্তা নিশ্চিত করতে এবং অধ্যয়ন ও ব্যক্তিগত বৃদ্ধির জন্য একটি অনুকূল পরিবেশ তৈরি করার জন্য ডিজাইন করা হয়েছে।",
+    generalRules: "সাধারণ নিয়মাবলী",
+    disciplineRules: "শৃঙ্খলা ও আচরণ",
+    studyHours: "পড়াশোনার সময়",
+    visitingRules: "দর্শনার্থী নিয়মাবলী",
+
+    // 4. হোস্টেল চার্জ
+    hostelChargesTitle: "হোস্টেল চার্জ",
+    hostelChargesSubtitle: "সাশ্রয়ী আবাসিক ফি",
+    hostelChargesIntro: "আমাদের হোস্টেল ফি কাঠামো মানসম্পন্ন বাসস্থান এবং সেবা প্রদানের পাশাপাশি সাশ্রয়ী হওয়ার জন্য ডিজাইন করা হয়েছে।",
+    admissionCharge: "ভর্তি চার্জ",
+    monthlyCharge: "মাসিক চার্জ",
+    securityDeposit: "নিরাপত্তা জামানত",
+    mealCharges: "খাবার চার্জ",
+    utilityCharges: "ইউটিলিটি চার্জ",
+
+    // 5. হোস্টেল নীতিমালা
+    hostelPoliciesTitle: "হোস্টেল নীতিমালা",
+    hostelPoliciesSubtitle: "গুরুত্বপূর্ণ নীতি নির্দেশিকা",
+    hostelPoliciesIntro: "একটি মসৃণ আবাসিক অভিজ্ঞতা নিশ্চিত করতে অনুগ্রহ করে আমাদের হোস্টেল নীতিগুলির সাথে পরিচিত হন।",
+    admissionPolicy: "ভর্তি নীতি",
+    refundPolicy: "ফেরত নীতি",
+    disciplinaryPolicy: "শাস্তিমূলক নীতি",
+    emergencyPolicy: "জরুরী নীতি",
+
+    // 6. দৈনিক সময়সূচী
+    dailyScheduleTitle: "দৈনিক সময়সূচী",
+    dailyScheduleSubtitle: "সাফল্যের জন্য কাঠামোবদ্ধ রুটিন",
+    dailyScheduleIntro: "আমাদের দৈনিক সময়সূচী সামগ্রিক উন্নয়ন নিশ্চিত করতে একাডেমিক, উপাসনা, শারীরিক কার্যকলাপ এবং বিশ্রামের মধ্যে ভারসাম্য রাখে।",
+    morningRoutine: "সকালের রুটিন",
+    academicTime: "একাডেমিক সময়",
+    eveningActivities: "সন্ধ্যার কার্যক্রম",
+    nightRoutine: "রাতের রুটিন",
   },
 
   ar: {
@@ -1206,6 +1344,64 @@ const translations = {
     requiredDocuments: "المستندات المطلوبة",
     admissionRules: "قواعد القبول",
     withdrawalPolicy: "سياسة الانسحاب",
+
+    /** =============================================
+     *  RESIDENTIAL SECTION PAGES (عربي)
+     * ============================================= */
+
+    // 1. مقدمة السكن
+    hostelIntroTitle: "مقدمة السكن",
+    hostelIntroSubtitle: "منزلك بعيدًا عن المنزل",
+    hostelIntroText: "توفر مرافقنا السكنية بيئة معيشية آمنة ومريحة وداعمة للطلاب، مما يعزز التميز الأكاديمي وتنمية الشخصية.",
+    hostelFacilities: "مرافق السكن",
+    hostelCapacity: "سعة السكن",
+    hostelRooms: "أنواع الغرف",
+
+    // 2. مديرو السكن
+    hostelDirectorsTitle: "مديرو السكن والموظفون",
+    hostelDirectorsSubtitle: "رعاية وإشراف متفانية",
+    hostelDirectorsIntro: "يضمن مديرو ومشرفو السكن ذوو الخبرة لدينا رفاهية وأمان والتطور الأخلاقي لجميع الطلاب المقيمين.",
+    maleHostelDirector: "مدير سكن الذكور",
+    femaleHostelDirector: "مديرة سكن الإناث",
+    hostelWardens: "مشرفو السكن",
+    hostelSupportStaff: "موظفو الدعم",
+
+    // 3. قواعد السكن
+    hostelRulesTitle: "قواعد وأنظمة السكن",
+    hostelRulesSubtitle: "إرشادات للعيش المتناغم",
+    hostelRulesIntro: "تم تصميم هذه القواعد للحفاظ على الانضباط وضمان السلامة وخلق بيئة مواتية للدراسة والنمو الشخصي.",
+    generalRules: "القواعد العامة",
+    disciplineRules: "الانضباط والسلوك",
+    studyHours: "ساعات الدراسة",
+    visitingRules: "قواعد الزيارة",
+
+    // 4. رسوم السكن
+    hostelChargesTitle: "رسوم السكن",
+    hostelChargesSubtitle: "رسوم سكنية ميسورة",
+    hostelChargesIntro: "تم تصميم هيكل رسوم السكن لدينا ليكون ميسور التكلفة مع توفير إقامة وخدمات عالية الجودة.",
+    admissionCharge: "رسوم القبول",
+    monthlyCharge: "الرسوم الشهرية",
+    securityDeposit: "التأمين",
+    mealCharges: "رسوم الوجبات",
+    utilityCharges: "رسوم المرافق",
+
+    // 5. سياسات السكن
+    hostelPoliciesTitle: "سياسات السكن",
+    hostelPoliciesSubtitle: "إرشادات السياسات المهمة",
+    hostelPoliciesIntro: "يرجى التعرف على سياسات السكن لدينا لضمان تجربة سكنية سلسة.",
+    admissionPolicy: "سياسة القبول",
+    refundPolicy: "سياسة الاسترداد",
+    disciplinaryPolicy: "السياسة التأديبية",
+    emergencyPolicy: "سياسة الطوارئ",
+
+    // 6. الجدول اليومي
+    dailyScheduleTitle: "الجدول اليومي",
+    dailyScheduleSubtitle: "روتين منظم للنجاح",
+    dailyScheduleIntro: "جدولنا اليومي يوازن بين الأكاديميات والعبادة والأنشطة البدنية والراحة لضمان التنمية الشاملة.",
+    morningRoutine: "الروتين الصباحي",
+    academicTime: "الوقت الأكاديمي",
+    eveningActivities: "الأنشطة المسائية",
+    nightRoutine: "الروتين الليلي",
   }
 };
 
