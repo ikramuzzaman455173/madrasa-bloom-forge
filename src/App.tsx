@@ -63,6 +63,13 @@ import LibraryIntro from "./pages/library/LibraryIntro";
 import LibraryCatalog from "./pages/library/LibraryCatalog";
 import LibraryPolicy from "./pages/library/LibraryPolicy";
 
+// Branches Section Pages
+import TakhssusiBranch from "./pages/branches/TakhssusiBranch";
+import WomenBranch from "./pages/branches/WomenBranch";
+import HifzBranch from "./pages/branches/HifzBranch";
+import OrphanageBranch from "./pages/branches/OrphanageBranch";
+import KitabBranch from "./pages/branches/KitabBranch";
+
 const queryClient = new QueryClient();
 
 const App = () => (
@@ -127,6 +134,13 @@ const App = () => (
             <Route path="/library/intro" element={<LibraryIntro />} />
             <Route path="/library/catalog" element={<LibraryCatalog />} />
             <Route path="/library/policy" element={<LibraryPolicy />} />
+
+            {/* Branches Section Routes */}
+            <Route path="/branches/takhssusi" element={<TakhssusiBranch />} />
+            <Route path="/branches/women" element={<WomenBranch />} />
+            <Route path="/branches/hifz" element={<HifzBranch />} />
+            <Route path="/branches/orphanage" element={<OrphanageBranch />} />
+            <Route path="/branches/kitab" element={<KitabBranch />} />
 
             {/* Other Pages */}
             <Route path="/contact" element={<ContactPage />} />

@@ -504,6 +504,35 @@ const translations = {
     libPolicyTitle: "Library Policy",
     libPolicySubtitle: "Rules & Guidelines",
     libPolicyText: "Please familiarize yourself with our library policies to ensure smooth access and proper use of resources.",
+
+    /** =============================================
+     *  BRANCHES SECTION PAGES
+     * ============================================= */
+
+    // Takhssusi Branch
+    brTakhssusiTitle: "Takhssusi Branch",
+    brTakhssusiSubtitle: "Advanced Islamic Studies",
+    brTakhssusiText: "Our Takhssusi branch offers specialized advanced Islamic education for dedicated students pursuing in-depth religious knowledge.",
+
+    // Women's Branch
+    brWomenTitle: "Women's Branch",
+    brWomenSubtitle: "Islamic Education for Women",
+    brWomenText: "A dedicated branch providing comprehensive Islamic and modern education for female students in a comfortable environment.",
+
+    // Hifz Branch
+    brHifzTitle: "Hifz Branch",
+    brHifzSubtitle: "Quran Memorization Program",
+    brHifzText: "Specialized program for students dedicated to memorizing the Holy Quran with proper Tajweed and understanding.",
+
+    // Orphanage Branch
+    brOrphanageTitle: "Orphanage Branch",
+    brOrphanageSubtitle: "Care & Education for Orphans",
+    brOrphanageText: "Providing shelter, care, and quality education to orphaned children, ensuring their bright future.",
+
+    // Kitab Branch
+    brKitabTitle: "Kitab Branch",
+    brKitabSubtitle: "Classical Islamic Texts",
+    brKitabText: "In-depth study of classical Islamic texts and literature for advanced students of Islamic knowledge.",
   },
 
   bn: {
@@ -997,6 +1026,35 @@ const translations = {
     libPolicyTitle: "লাইব্রেরি নীতিমালা",
     libPolicySubtitle: "নিয়ম ও নির্দেশিকা",
     libPolicyText: "সম্পদের সুষ্ঠু ব্যবহার এবং সহজ অ্যাক্সেস নিশ্চিত করতে অনুগ্রহ করে আমাদের লাইব্রেরি নীতিমালার সাথে পরিচিত হন।",
+
+    /** =============================================
+     *  BRANCHES SECTION PAGES (বাংলা)
+     * ============================================= */
+
+    // তাখাসসুসি শাখা
+    brTakhssusiTitle: "তাখাসসুসি শাখা",
+    brTakhssusiSubtitle: "উচ্চতর ইসলামিক শিক্ষা",
+    brTakhssusiText: "আমাদের তাখাসসুসি শাখা গভীর ধর্মীয় জ্ঞান অর্জনকারী নিবেদিত শিক্ষার্থীদের জন্য বিশেষায়িত উন্নত ইসলামিক শিক্ষা প্রদান করে।",
+
+    // মহিলা শাখা
+    brWomenTitle: "মহিলা শাখা",
+    brWomenSubtitle: "নারীদের জন্য ইসলামিক শিক্ষা",
+    brWomenText: "একটি নিবেদিত শাখা যা আরামদায়ক পরিবেশে মহিলা শিক্ষার্থীদের জন্য ব্যাপক ইসলামিক এবং আধুনিক শিক্ষা প্রদান করে।",
+
+    // হিফজ শাখা
+    brHifzTitle: "হিফজ শাখা",
+    brHifzSubtitle: "কুরআন মুখস্থকরণ প্রোগ্রাম",
+    brHifzText: "সঠিক তাজবীদ এবং বোঝার সাথে পবিত্র কুরআন মুখস্থ করার জন্য নিবেদিত শিক্ষার্থীদের জন্য বিশেষায়িত প্রোগ্রাম।",
+
+    // এতিমখানা শাখা
+    brOrphanageTitle: "এতিমখানা শাখা",
+    brOrphanageSubtitle: "এতিমদের যত্ন ও শিক্ষা",
+    brOrphanageText: "এতিম শিশুদের আশ্রয়, যত্ন এবং মানসম্পন্ন শিক্ষা প্রদান করে, তাদের উজ্জ্বল ভবিষ্যৎ নিশ্চিত করে।",
+
+    // কিতাব শাখা
+    brKitabTitle: "কিতাব শাখা",
+    brKitabSubtitle: "ক্লাসিক্যাল ইসলামিক গ্রন্থ",
+    brKitabText: "ইসলামিক জ্ঞানের উন্নত শিক্ষার্থীদের জন্য ক্লাসিক্যাল ইসলামিক গ্রন্থ এবং সাহিত্যের গভীর অধ্যয়ন।",
   },
 
   ar: {
@@ -1492,6 +1550,35 @@ const translations = {
     libPolicyTitle: "سياسة المكتبة",
     libPolicySubtitle: "القواعد والإرشادات",
     libPolicyText: "يرجى التعرف على سياسات مكتبتنا لضمان الوصول السلس والاستخدام السليم للموارد.",
+
+    /** =============================================
+     *  BRANCHES SECTION PAGES (عربي)
+     * ============================================= */
+
+    // فرع التخصصي
+    brTakhssusiTitle: "فرع التخصصي",
+    brTakhssusiSubtitle: "الدراسات الإسلامية المتقدمة",
+    brTakhssusiText: "يقدم فرع التخصصي لدينا تعليمًا إسلاميًا متقدمًا متخصصًا للطلاب المتفانين الذين يسعون للحصول على معرفة دينية متعمقة.",
+
+    // فرع النساء
+    brWomenTitle: "فرع النساء",
+    brWomenSubtitle: "التعليم الإسلامي للنساء",
+    brWomenText: "فرع مخصص يوفر تعليمًا إسلاميًا وحديثًا شاملاً للطالبات في بيئة مريحة.",
+
+    // فرع الحفظ
+    brHifzTitle: "فرع الحفظ",
+    brHifzSubtitle: "برنامج حفظ القرآن",
+    brHifzText: "برنامج متخصص للطلاب المتفانين في حفظ القرآن الكريم مع التجويد الصحيح والفهم.",
+
+    // فرع دار الأيتام
+    brOrphanageTitle: "فرع دار الأيتام",
+    brOrphanageSubtitle: "الرعاية والتعليم للأيتام",
+    brOrphanageText: "توفير المأوى والرعاية والتعليم الجيد للأطفال الأيتام، وضمان مستقبلهم المشرق.",
+
+    // فرع الكتاب
+    brKitabTitle: "فرع الكتاب",
+    brKitabSubtitle: "النصوص الإسلامية الكلاسيكية",
+    brKitabText: "دراسة متعمقة للنصوص والأدب الإسلامي الكلاسيكي للطلاب المتقدمين في المعرفة الإسلامية.",
   }
 };
 
