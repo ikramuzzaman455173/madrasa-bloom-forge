@@ -571,6 +571,23 @@ const translations = {
     loginAdminTitle: "Admin Login",
     loginAdminSubtitle: "Administrator Access",
     loginAdminWelcome: "Secure administrative access to manage the entire institutional system.",
+
+    /** =============================================
+     *  FOOTER SECTION
+     * ============================================= */
+    footerDescription: "A leading institution dedicated to Islamic education with modern facilities and comprehensive academic programs.",
+    footerFullName: "Bangladesh Science & Technology Madrasah",
+    footerAddress: "K-85/1/C, Kuratoli Masjid Road, Khilkhet, Dhaka",
+    footerBranches: "Our Branches",
+    footerResidential: "Residential",
+    footerNonResidential: "Non-Residential",
+    footerDayCare: "Day-Care",
+    footerHifz: "Hifz Division",
+    footerPageKG: "Page-KG",
+    footerGrade1to3: "Grade 1-3",
+    contactUs: "Contact Us",
+    followUs: "Follow Us",
+    allRightsReserved: "All rights reserved",
   },
 
   bn: {
@@ -1131,6 +1148,23 @@ const translations = {
     loginAdminTitle: "অ্যাডমিন লগইন",
     loginAdminSubtitle: "প্রশাসক অ্যাক্সেস",
     loginAdminWelcome: "সম্পূর্ণ প্রাতিষ্ঠানিক সিস্টেম পরিচালনার জন্য সুরক্ষিত প্রশাসনিক অ্যাক্সেস।",
+
+    /** =============================================
+     *  FOOTER SECTION (বাংলা)
+     * ============================================= */
+    footerDescription: "আধুনিক সুবিধা এবং ব্যাপক একাডেমিক প্রোগ্রাম সহ ইসলামিক শিক্ষার জন্য নিবেদিত একটি অগ্রণী প্রতিষ্ঠান।",
+    footerFullName: "বাংলাদেশ বিজ্ঞান ও প্রযুক্তি মাদরাসা",
+    footerAddress: "ক-৮৫/১/সি, কুড়াতলী মসজিদ রোড, খিলক্ষেত, ঢাকা",
+    footerBranches: "আমাদের শাখাসমূহ",
+    footerResidential: "আবাসিক",
+    footerNonResidential: "অনাবাসিক",
+    footerDayCare: "ডে-কেয়ার",
+    footerHifz: "হিফয বিভাগ",
+    footerPageKG: "পেজ-কেজি",
+    footerGrade1to3: "১ম-৩য় শ্রেণী",
+    contactUs: "যোগাযোগ করুন",
+    followUs: "অনুসরণ করুন",
+    allRightsReserved: "সর্বস্বত্ব সংরক্ষিত",
   },
 
   ar: {
@@ -1693,6 +1727,23 @@ const translations = {
     loginAdminTitle: "تسجيل دخول المسؤول",
     loginAdminSubtitle: "وصول المسؤول",
     loginAdminWelcome: "وصول إداري آمن لإدارة نظام المؤسسة بالكامل.",
+
+    /** =============================================
+     *  FOOTER SECTION (عربي)
+     * ============================================= */
+    footerDescription: "مؤسسة رائدة مكرسة للتعليم الإسلامي مع مرافق حديثة وبرامج أكاديمية شاملة.",
+    footerFullName: "مدرسة بنغلاديش للعلوم والتكنولوجيا",
+    footerAddress: "ك-٨٥/١/سي، طريق كوراتولي المسجد، خلكهات، دكا",
+    footerBranches: "فروعنا",
+    footerResidential: "سكني",
+    footerNonResidential: "غير سكني",
+    footerDayCare: "رعاية نهارية",
+    footerHifz: "قسم الحفظ",
+    footerPageKG: "الحضانة",
+    footerGrade1to3: "الصف ١-٣",
+    contactUs: "اتصل بنا",
+    followUs: "تابعنا",
+    allRightsReserved: "جميع الحقوق محفوظة",
   }
 };
 
