@@ -20,6 +20,63 @@ const FeatureSection = () => {
   const fontClass = isBN ? "font-bengali" : isAR ? "font-arabic" : "";
   const textAlignClass = isAR ? "text-right" : "text-left";
 
+  const features = [
+    {
+      icon: BookOpen,
+      title: t("featuresAcademicTitle"),
+      text: t("featuresAcademicText"),
+      color: "text-primary",
+      bg: "bg-primary/10",
+      hoverBg: "hover:bg-primary/20",
+      borderColor: "hover:border-primary/40"
+    },
+    {
+      icon: Building2,
+      title: t("featuresFacilitiesTitle"),
+      text: t("featuresFacilitiesText"),
+      color: "text-accent",
+      bg: "bg-accent/10",
+      hoverBg: "hover:bg-accent/20",
+      borderColor: "hover:border-accent/40"
+    },
+    {
+      icon: Sparkles,
+      title: t("featuresHolisticTitle"),
+      text: t("featuresHolisticText"),
+      color: "text-primary",
+      bg: "bg-primary/10",
+      hoverBg: "hover:bg-primary/20",
+      borderColor: "hover:border-primary/40"
+    },
+    {
+      icon: Trophy,
+      title: t("featuresCoCurricularTitle"),
+      text: t("featuresCoCurricularText"),
+      color: "text-accent",
+      bg: "bg-accent/10",
+      hoverBg: "hover:bg-accent/20",
+      borderColor: "hover:border-accent/40"
+    },
+    {
+      icon: Users,
+      title: t("featuresTeachersTitle"),
+      text: t("featuresTeachersText"),
+      color: "text-primary",
+      bg: "bg-primary/10",
+      hoverBg: "hover:bg-primary/20",
+      borderColor: "hover:border-primary/40"
+    },
+    {
+      icon: Shield,
+      title: t("featuresSafetyTitle"),
+      text: t("featuresSafetyText"),
+      color: "text-accent",
+      bg: "bg-accent/10",
+      hoverBg: "hover:bg-accent/20",
+      borderColor: "hover:border-accent/40"
+    }
+  ];
+
   return (
     <Card className="shadow-md border-t-4 border-t-primary overflow-hidden transition-all duration-300 hover:shadow-lg">
       <CardHeader className="bg-gradient-to-r from-primary via-primary to-primary-dark text-white py-4">
@@ -30,115 +87,25 @@ const FeatureSection = () => {
       </CardHeader>
       <CardContent className="pt-6 pb-6 bg-gradient-to-b from-gray-50 to-white">
         <div className={`grid grid-cols-1 md:grid-cols-2 gap-6 ${fontClass} ${textAlignClass}`}>
-
-          {/* Academic Excellence */}
-          <div
-            className="group bg-white border-2 border-gray-200 rounded-lg p-6 shadow-sm transition-all duration-300 
-            hover:shadow-md hover:border-primary/40 hover:-translate-y-1 relative overflow-hidden"
-          >
-            <div className="flex items-center gap-3 mb-4">
-              <div className="bg-blue-50 p-2 rounded-lg group-hover:bg-blue-100 transition-colors">
-                <BookOpen className="h-6 w-6 text-primary transition-transform duration-300 group-hover:scale-110" />
+          {features.map((feature, index) => (
+            <div
+              key={index}
+              className={`group bg-white border-2 border-gray-200 rounded-lg p-6 shadow-sm transition-all duration-300 
+              hover:shadow-md ${feature.borderColor} hover:-translate-y-1 relative overflow-hidden`}
+            >
+              <div className="flex items-center gap-3 mb-4">
+                <div className={`${feature.bg} ${feature.hoverBg} p-2 rounded-lg transition-colors`}>
+                  <feature.icon className={`h-6 w-6 ${feature.color} transition-transform duration-300 group-hover:scale-110`} />
+                </div>
+                <h3 className="text-xl font-semibold text-foreground">
+                  {feature.title}
+                </h3>
               </div>
-              <h3 className="text-xl font-semibold text-foreground">
-                {t("featuresAcademicTitle")}
-              </h3>
+              <p className="text-muted-foreground leading-relaxed">
+                {feature.text}
+              </p>
             </div>
-            <p className="text-muted-foreground leading-relaxed">
-              {t("featuresAcademicText")}
-            </p>
-          </div>
-
-          {/* Modern Facilities */}
-          <div
-            className="group bg-white border-2 border-gray-200 rounded-lg p-6 shadow-sm transition-all duration-300 
-            hover:shadow-md hover:border-accent/40 hover:-translate-y-1 relative overflow-hidden"
-          >
-            <div className="flex items-center gap-3 mb-4">
-              <div className="bg-green-50 p-2 rounded-lg group-hover:bg-green-100 transition-colors">
-                <Building2 className="h-6 w-6 text-accent transition-transform duration-300 group-hover:scale-110" />
-              </div>
-              <h3 className="text-xl font-semibold text-foreground">
-                {t("featuresFacilitiesTitle")}
-              </h3>
-            </div>
-            <p className="text-muted-foreground leading-relaxed">
-              {t("featuresFacilitiesText")}
-            </p>
-          </div>
-
-          {/* Holistic Development */}
-          <div
-            className="group bg-white border-2 border-gray-200 rounded-lg p-6 shadow-sm transition-all duration-300 
-            hover:shadow-md hover:border-purple-400 hover:-translate-y-1 relative overflow-hidden"
-          >
-            <div className="flex items-center gap-3 mb-4">
-              <div className="bg-purple-50 p-2 rounded-lg group-hover:bg-purple-100 transition-colors">
-                <Sparkles className="h-6 w-6 text-purple-600 transition-transform duration-300 group-hover:scale-110" />
-              </div>
-              <h3 className="text-xl font-semibold text-foreground">
-                {t("featuresHolisticTitle")}
-              </h3>
-            </div>
-            <p className="text-muted-foreground leading-relaxed">
-              {t("featuresHolisticText")}
-            </p>
-          </div>
-
-          {/* Co-Curricular Activities */}
-          <div
-            className="group bg-white border-2 border-gray-200 rounded-lg p-6 shadow-sm transition-all duration-300 
-            hover:shadow-md hover:border-primary/40 hover:-translate-y-1 relative overflow-hidden"
-          >
-            <div className="flex items-center gap-3 mb-4">
-              <div className="bg-orange-50 p-2 rounded-lg group-hover:bg-orange-100 transition-colors">
-                <Trophy className="h-6 w-6 text-orange-600 transition-transform duration-300 group-hover:scale-110" />
-              </div>
-              <h3 className="text-xl font-semibold text-foreground">
-                {t("featuresCoCurricularTitle")}
-              </h3>
-            </div>
-            <p className="text-muted-foreground leading-relaxed">
-              {t("featuresCoCurricularText")}
-            </p>
-          </div>
-
-          {/* Qualified Teachers */}
-          <div
-            className="group bg-white border-2 border-gray-200 rounded-lg p-6 shadow-sm transition-all duration-300 
-            hover:shadow-md hover:border-accent/50 hover:-translate-y-1 relative overflow-hidden"
-          >
-            <div className="flex items-center gap-3 mb-4">
-              <div className="bg-pink-50 p-2 rounded-lg group-hover:bg-pink-100 transition-colors">
-                <Users className="h-6 w-6 text-pink-600 transition-transform duration-300 group-hover:scale-110" />
-              </div>
-              <h3 className="text-xl font-semibold text-foreground">
-                {t("featuresTeachersTitle")}
-              </h3>
-            </div>
-            <p className="text-muted-foreground leading-relaxed">
-              {t("featuresTeachersText")}
-            </p>
-          </div>
-
-          {/* Safe Environment */}
-          <div
-            className="group bg-white border-2 border-gray-200 rounded-lg p-6 shadow-sm transition-all duration-300 
-            hover:shadow-md hover:border-teal-400 hover:-translate-y-1 relative overflow-hidden"
-          >
-            <div className="flex items-center gap-3 mb-4">
-              <div className="bg-teal-50 p-2 rounded-lg group-hover:bg-teal-100 transition-colors">
-                <Shield className="h-6 w-6 text-teal-600 transition-transform duration-300 group-hover:scale-110" />
-              </div>
-              <h3 className="text-xl font-semibold text-foreground">
-                {t("featuresSafetyTitle")}
-              </h3>
-            </div>
-            <p className="text-muted-foreground leading-relaxed">
-              {t("featuresSafetyText")}
-            </p>
-          </div>
-
+          ))}
         </div>
       </CardContent>
     </Card>

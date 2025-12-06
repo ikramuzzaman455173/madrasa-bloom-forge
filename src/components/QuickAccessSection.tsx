@@ -20,49 +20,49 @@ const QuickAccessSection = () => {
             icon: UserPlus,
             label: t('admissionInfo'),
             link: '/admission/procedure',
-            color: 'bg-gradient-to-br from-blue-500 to-blue-600',
-            hoverColor: 'hover:from-blue-600 hover:to-blue-700',
-            shadowColor: 'hover:shadow-blue-500/30'
+            color: 'bg-gradient-to-br from-primary to-primary-dark',
+            hoverColor: 'hover:from-primary-dark hover:to-primary',
+            shadowColor: 'hover:shadow-primary/30'
         },
         {
             icon: BookOpenCheck,
             label: t('academicPrograms'),
             link: '/academics/levels',
-            color: 'bg-gradient-to-br from-green-500 to-green-600',
-            hoverColor: 'hover:from-green-600 hover:to-green-700',
-            shadowColor: 'hover:shadow-green-500/30'
+            color: 'bg-gradient-to-br from-accent to-accent/90',
+            hoverColor: 'hover:from-accent/90 hover:to-accent',
+            shadowColor: 'hover:shadow-accent/30'
         },
         {
             icon: Calendar,
             label: t('academicCalendar'),
             link: '/academics/levels',
-            color: 'bg-gradient-to-br from-purple-500 to-purple-600',
-            hoverColor: 'hover:from-purple-600 hover:to-purple-700',
-            shadowColor: 'hover:shadow-purple-500/30'
+            color: 'bg-gradient-to-br from-primary to-primary-dark',
+            hoverColor: 'hover:from-primary-dark hover:to-primary',
+            shadowColor: 'hover:shadow-primary/30'
         },
         {
             icon: Building2,
             label: t('ourBranches'),
             link: '/branches/takhssusi',
-            color: 'bg-gradient-to-br from-orange-500 to-orange-600',
-            hoverColor: 'hover:from-orange-600 hover:to-orange-700',
-            shadowColor: 'hover:shadow-orange-500/30'
+            color: 'bg-gradient-to-br from-accent to-accent/90',
+            hoverColor: 'hover:from-accent/90 hover:to-accent',
+            shadowColor: 'hover:shadow-accent/30'
         },
         {
             icon: Library,
             label: t('libraryResources'),
             link: '/library/intro',
-            color: 'bg-gradient-to-br from-pink-500 to-pink-600',
-            hoverColor: 'hover:from-pink-600 hover:to-pink-700',
-            shadowColor: 'hover:shadow-pink-500/30'
+            color: 'bg-gradient-to-br from-primary to-primary-dark',
+            hoverColor: 'hover:from-primary-dark hover:to-primary',
+            shadowColor: 'hover:shadow-primary/30'
         },
         {
             icon: FileText,
             label: t('publications'),
             link: '/publication/new-bikash',
-            color: 'bg-gradient-to-br from-teal-500 to-teal-600',
-            hoverColor: 'hover:from-teal-600 hover:to-teal-700',
-            shadowColor: 'hover:shadow-teal-500/30'
+            color: 'bg-gradient-to-br from-accent to-accent/90',
+            hoverColor: 'hover:from-accent/90 hover:to-accent',
+            shadowColor: 'hover:shadow-accent/30'
         },
     ];
 

@@ -11,37 +11,37 @@ const StatsSection = () => {
             icon: Users,
             label: t('totalStudents'),
             value: '2,500+',
-            color: 'text-blue-600',
-            bg: 'bg-gradient-to-br from-blue-50 to-blue-100',
-            borderColor: 'border-blue-200',
-            hoverBg: 'hover:from-blue-100 hover:to-blue-200'
+            color: 'text-primary',
+            bg: 'bg-gradient-to-br from-primary/10 to-primary/20',
+            borderColor: 'border-primary/30',
+            hoverBg: 'hover:from-primary/20 hover:to-primary/30'
         },
         {
             icon: GraduationCap,
             label: t('qualifiedTeachers'),
             value: '150+',
-            color: 'text-green-600',
-            bg: 'bg-gradient-to-br from-green-50 to-green-100',
-            borderColor: 'border-green-200',
-            hoverBg: 'hover:from-green-100 hover:to-green-200'
+            color: 'text-accent',
+            bg: 'bg-gradient-to-br from-accent/10 to-accent/20',
+            borderColor: 'border-accent/30',
+            hoverBg: 'hover:from-accent/20 hover:to-accent/30'
         },
         {
             icon: BookOpen,
             label: t('departments'),
             value: '12',
-            color: 'text-purple-600',
-            bg: 'bg-gradient-to-br from-purple-50 to-purple-100',
-            borderColor: 'border-purple-200',
-            hoverBg: 'hover:from-purple-100 hover:to-purple-200'
+            color: 'text-primary',
+            bg: 'bg-gradient-to-br from-primary/10 to-primary/20',
+            borderColor: 'border-primary/30',
+            hoverBg: 'hover:from-primary/20 hover:to-primary/30'
         },
         {
             icon: Award,
             label: t('yearsExperience'),
             value: '30+',
-            color: 'text-orange-600',
-            bg: 'bg-gradient-to-br from-orange-50 to-orange-100',
-            borderColor: 'border-orange-200',
-            hoverBg: 'hover:from-orange-100 hover:to-orange-200'
+            color: 'text-accent',
+            bg: 'bg-gradient-to-br from-accent/10 to-accent/20',
+            borderColor: 'border-accent/30',
+            hoverBg: 'hover:from-accent/20 hover:to-accent/30'
         },
     ];
 

@@ -108,8 +108,8 @@ export const Sidebar = () => {
       </Card>
 
       {/* Form Download */}
-      <Card className="shadow-lg border-t-4 border-t-blue-900">
-        <CardHeader className="bg-blue-900 text-white py-3">
+      <Card className="shadow-lg border-t-4 border-t-accent">
+        <CardHeader className="bg-accent text-white py-3">
           <CardTitle className="flex items-center gap-2 text-base font-bold">
             <Download className="w-5 h-5" />
             {t('formDownload')}
@@ -182,7 +182,7 @@ const AcademicCalendar = () => {
   return (
     <div className="bg-white">
       {/* Header */}
-      <div className="bg-gradient-to-r from-blue-900 to-blue-800 text-white p-4">
+      <div className="bg-gradient-to-r from-accent to-accent/90 text-white p-4">
         <div className="flex items-center justify-between">
           <button
             onClick={handlePrevMonth}

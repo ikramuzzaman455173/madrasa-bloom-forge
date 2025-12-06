@@ -162,7 +162,7 @@ export const Footer = () => {
                   <a
                     key={i}
                     href={href}
-                    className="w-10 h-10 rounded-full bg-white/10 backdrop-blur-sm border border-white/10 flex items-center justify-center hover:bg-accent hover:border-accent hover:text-gray-900 transition-all duration-300 hover:scale-110"
+                    className="w-10 h-10 rounded-full bg-white/10 backdrop-blur-sm border border-white/10 flex items-center justify-center hover:bg-accent hover:border-accent hover:text-white transition-all duration-300 hover:scale-110"
                   >
                     <Icon className="w-5 h-5" />
                   </a>
