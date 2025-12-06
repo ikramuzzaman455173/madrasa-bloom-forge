@@ -21,6 +21,17 @@ import OfficersStaff from "./pages/about/OfficersStaff";
 // Other Pages
 import ContactPage from "./pages/Contact";
 
+// Academics Section Pages
+import ClassTeachers from "./pages/academics/ClassTeachers";
+import EducationLevels from "./pages/academics/Levels";
+import Curriculum from "./pages/academics/Curriculum";
+import CoCurriculum from "./pages/academics/CoCurriculum";
+import Functions from "./pages/academics/Functions";
+import Results from "./pages/academics/Results";
+import ExamMethod from "./pages/academics/ExamMethod";
+import HolidayList from "./pages/academics/HolidayList";
+import ExamRoutine from "./pages/academics/ExamRoutine";
+import ClassRoutine from "./pages/academics/ClassRoutine";
 
 const queryClient = new QueryClient();
 
@@ -44,6 +55,18 @@ const App = () => (
             <Route path="/about/complex" element={<CampusComplex />} />
             <Route path="/about/teachers" element={<TeachersPage />} />
             <Route path="/about/officers" element={<OfficersStaff />} />
+
+            {/* Academics Section Routes */}
+            <Route path="/academics/class-teachers" element={<ClassTeachers />} />
+            <Route path="/academics/levels" element={<EducationLevels />} />
+            <Route path="/academics/curriculum" element={<Curriculum />} />
+            <Route path="/academics/co-curriculum" element={<CoCurriculum />} />
+            <Route path="/academics/functions" element={<Functions />} />
+            <Route path="/academics/results" element={<Results />} />
+            <Route path="/academics/exam-method" element={<ExamMethod />} />
+            <Route path="/academics/holiday-list" element={<HolidayList />} />
+            <Route path="/academics/exam-routine" element={<ExamRoutine />} />
+            <Route path="/academics/class-routine" element={<ClassRoutine />} />
 
             {/* Other Pages */}
             <Route path="/contact" element={<ContactPage />} />

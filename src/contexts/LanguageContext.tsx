@@ -281,6 +281,82 @@ const translations = {
     accountant: "Accountant",
     librarian: "Librarian",
     labAssistants: "Lab Assistants",
+
+    /** =============================================
+     *  ACADEMICS SECTION PAGES
+     * ============================================= */
+
+    // 1. Class Teachers
+    classTeachersTitle: "Class Teachers",
+    classTeachersSubtitle: "Meet Our Dedicated Educators",
+    classTeachersIntro: "Our class teachers are committed to providing personalized attention and guidance to each student, ensuring academic excellence and character development.",
+
+    // 2. Education Levels
+    levelsTitle: "Education Levels",
+    levelsSubtitle: "Progressive Learning Stages",
+    levelsIntro: "Our comprehensive education system is structured across multiple levels, from elementary to advanced studies.",
+    levelPrimary: "Primary Level (Class 1-5)",
+    levelPrimaryText: "Foundation in Islamic studies and basic academics",
+    levelSecondary: "Secondary Level (Class 6-10)",
+    levelSecondaryText: "Advanced Islamic knowledge with modern subjects",
+    levelHigher: "Higher Secondary (Class 11-12)",
+    levelHigherText: "Specialization in Islamic sciences and contemporary education",
+
+    // 3. Curriculum
+    curriculumTitle: "Curriculum",
+    curriculumSubtitle: "Integrated Learning Framework",
+    curriculumIntro: "Our curriculum seamlessly blends traditional Islamic education with modern academic subjects.",
+    curriculumIslamic: "Islamic Studies",
+    curriculumIslamicText: "Quran, Hadith, Fiqh, Arabic Language, and Islamic History",
+    curriculumModern: "Modern Subjects",
+    curriculumModernText: "Mathematics, Science, English, Bangla, Social Studies, and Computer Science",
+
+    // 4. Co-Curriculum
+    coCurriculumTitle: "Co-Curricular Activities",
+    coCurriculumSubtitle: "Beyond the Classroom",
+    coCurriculumIntro: "We believe in holistic development through diverse extracurricular programs.",
+    coCurriculumSports: "Sports & Games",
+    coCurriculumArts: "Islamic Arts & Crafts",
+    coCurriculumDebate: "Debates & Competitions",
+    coCurriculumCultural: "Cultural Programs",
+
+    // 5. Functions & Events
+    functionsTitle: "Functions & Events",
+    functionsSubtitle: "Celebrating Our Community",
+    functionsIntro: "Throughout the year, we organize various educational and cultural programs.",
+    functionsAnnual: "Annual Day",
+    functionsSports: "Sports Day",
+    functionsIslamic: "Islamic Programs",
+    functionsAcademic: "Academic Events",
+
+    // 6. Results
+    resultsTitle: "Academic Results",
+    resultsSubtitle: "Excellence in Performance",
+    resultsIntro: "Our students consistently achieve outstanding results in both board examinations and internal assessments.",
+
+    // 7. Examination Method
+    examMethodTitle: "Examination Method",
+    examMethodSubtitle: "Assessment & Evaluation",
+    examMethodIntro: "Our examination system is designed to comprehensively evaluate student learning and progress.",
+    examTypes: "Types of Examinations",
+    examInternal: "Internal Assessments",
+    examTerminal: "Terminal Examinations",
+    examBoard: "Board Examinations",
+
+    // 8. Holiday List
+    holidayListTitle: "Holiday List",
+    holidayListSubtitle: "Academic Calendar Breaks",
+    holidayListIntro: "Important holidays and vacation periods throughout the academic year.",
+
+    // 9. Exam Routine
+    examRoutineTitle: "Examination Routine",
+    examRoutineSubtitle: "Scheduled Assessment Dates",
+    examRoutineIntro: "Detailed schedule of upcoming examinations and assessments.",
+
+    // 10. Class Routine
+    classRoutineTitle: "Class Routine",
+    classRoutineSubtitle: "Daily class Schedule",
+    classRoutineIntro: "Structured daily timetable for all classes and subjects.",
   },
 
   bn: {
@@ -552,6 +628,82 @@ const translations = {
     accountant: "হিসাবরক্ষক",
     librarian: "গ্রন্থাগারিক",
     labAssistants: "ল্যাব সহকারী",
+
+    /** =============================================
+     *  ACADEMICS SECTION PAGES (বাংলা)
+     * ============================================= */
+
+    // 1. শ্রেণী শিক্ষক
+    classTeachersTitle: "শ্রেণী শিক্ষক",
+    classTeachersSubtitle: "আমাদের নিবেদিত শিক্ষকবৃন্দের সাথে পরিচিত হন",
+    classTeachersIntro: "আমাদের শ্রেণী শিক্ষকগণ প্রতিটি শিক্ষার্থীকে ব্যক্তিগত মনোযোগ ও নির্দেশনা প্রদানে প্রতিশ্র utiবদ্ধ, যা একাডেমিক উৎকর্ষতা এবং চরিত্র উন্নয়ন নিশ্চিত করে।",
+
+    // 2. শিক্ষা স্তর
+    levelsTitle: "শিক্ষা স্তর",
+    levelsSubtitle: "প্রগতিশীল শিক্ষা পর্যায়",
+    levelsIntro: "আমাদের ব্যাপক শিক্ষা ব্যবস্থা প্রাথমিক থেকে উচ্চতর পড়াশোনা পর্যন্ত একাধিক স্তরে কাঠামোবদ্ধ।",
+    levelPrimary: "প্রাথমিক স্তর (শ্রেণী ১-৫)",
+    levelPrimaryText: "ইসলামিক স্টাডিজ এবং মৌলিক একাডেমিক শিক্ষার ভিত্তি",
+    levelSecondary: "মাধ্যমিক স্তর (শ্রেণী ৬-১০)",
+    levelSecondaryText: "আধুনিক বিষয়ের সাথে উন্নত ইসলামিক জ্ঞান",
+    levelHigher: "উচ্চ মাধ্যমিক (শ্রেণী ১১-১২)",
+    levelHigherText: "ইসলামিক বিজ্ঞান এবং সমসাময়িক শিক্ষায় বিশেষীকরণ",
+
+    // 3. পাঠ্যক্রম
+    curriculumTitle: "পাঠ্যক্রম",
+    curriculumSubtitle: "সমন্বিত শিক্ষা কাঠামো",
+    curriculumIntro: "আমাদের পাঠ্যক্রম ঐতিহ্যবাহী ইসলামিক শিক্ষা এবং আধুনিক একাডেমিক বিষয়গুলিকে নির্বিঘ্নে মিশ্রিত করে।",
+    curriculumIslamic: "ইসলামিক স্টাডিজ",
+    curriculumIslamicText: "কুরআন, হাদিস, ফিকহ, আরবি ভাষা এবং ইসলামিক ইতিহাস",
+    curriculumModern: "আধুনিক বিষয়সমূহ",
+    curriculumModernText: "গণিত, বিজ্ঞান, ইংরেজি, বাংলা, সামাজিক বিজ্ঞান এবং কম্পিউটার সায়েন্স",
+
+    // 4. সহপাঠ্যক্রম
+    coCurriculumTitle: "সহপাঠ্যক্রম কার্যক্রম",
+    coCurriculumSubtitle: "শ্রেণীকক্ষের বাইরে",
+    coCurriculumIntro: "আমরা বিভিন্ন পাঠ্যক্রম বহির্ভূত কর্মসূচির মাধ্যমে সামগ্রিক উন্নয়নে বিশ্বাস করি।",
+    coCurriculumSports: "ক্রীড়া ও খেলাধুলা",
+    coCurriculumArts: "ইসলামিক শিল্প ও কারুশিল্প",
+    coCurriculumDebate: "বিতর্ক ও প্রতিযোগিতা",
+    coCurriculumCultural: "সাংস্কৃতিক অনুষ্ঠান",
+
+    // 5. অনুষ্ঠান ও ইভেন্ট
+    functionsTitle: "অনুষ্ঠান ও ইভেন্ট",
+    functionsSubtitle: "আমাদের সম্প্রদায় উদযাপন",
+    functionsIntro: "বছর জুড়ে, আমরা বিভিন্ন শিক্ষামূলক এবং সাংস্কৃতিক অনুষ্ঠান আয়োজন করি।",
+    functionsAnnual: "বার্ষিক দিবস",
+    functionsSports: "ক্রীড়া দিবস",
+    functionsIslamic: "ইসলামিক অনুষ্ঠান",
+    functionsAcademic: "একাডেমিক ইভেন্ট",
+
+    // 6. ফলাফল
+    resultsTitle: "একাডেমিক ফলাফল",
+    resultsSubtitle: "পারফরম্যান্সে উৎকর্ষতা",
+    resultsIntro: "আমাদের শিক্ষার্থীরা ধারাবাহিকভাবে বোর্ড পরীক্ষা এবং অভ্যন্তরীণ মূল্যায়ন উভয়ে অসাধারণ ফলাফল অর্জন করে।",
+
+    // 7. পরীক্ষা পদ্ধতি
+    examMethodTitle: "পরীক্ষা পদ্ধতি",
+    examMethodSubtitle: "মূল্যায়ন ও পরিমাপ",
+    examMethodIntro: "আমাদের পরীক্ষা ব্যবস্থা শিক্ষার্থীদের শিক্ষা এবং অগ্রগতি ব্যাপকভাবে মূল্যায়ন করার জন্য ডিজাইন করা হয়েছে।",
+    examTypes: "পরীক্ষার ধরন",
+    examInternal: "অভ্যন্তরীণ মূল্যায়ন",
+    examTerminal: "ট্যার্মিনাল পরীক্ষা",
+    examBoard: "বোর্ড পরীক্ষা",
+
+    // 8. ছুটির তালিকা
+    holidayListTitle: "ছুটির তালিকা",
+    holidayListSubtitle: "একাডেমিক ক্যালেন্ডার বিরতি",
+    holidayListIntro: "একাডেমিক বছর জুড়ে গুরুত্বপূর্ণ ছুটি এবং অবকাশের সময়কাল।",
+
+    // 9. পরীক্ষার রুটিন
+    examRoutineTitle: "পরীক্ষার রুটিন",
+    examRoutineSubtitle: "নির্ধারিত মূল্যায়ন তারিখ",
+    examRoutineIntro: "আসন্ন পরীক্ষা এবং মূল্যায়নের বিস্তারিত সময়সূচী।",
+
+    // 10. ক্লাস রুটিন
+    classRoutineTitle: "ক্লাস রুটিন",
+    classRoutineSubtitle: "দৈনিক ক্লাস সময়সূচী",
+    classRoutineIntro: "সমস্ত শ্রেণী এবং বিষয়ের জন্য কাঠামোবদ্ধ দৈনিক সময়সূচী।",
   },
 
   ar: {
@@ -714,7 +866,7 @@ const translations = {
     overviewVisionText: "أن نصبح مؤسسة رائدة تنتج خريجين يتفوقون في كل من العلوم الإسلامية والعلوم الحديثة، ويساهمون بشكل إيجابي في المجتمع.",
     overviewAchievements: "الإنجازات الرئيسية",
     overviewStats: "إحصائياتنا",
-    
+
     // 2. رسالة المدير
     principalPageTitle: "رسالة المدير والسيرة الذاتية",
     principalPageSubtitle: "كلمات التوجيه من قائدنا",
@@ -825,6 +977,82 @@ const translations = {
     accountant: "المحاسب",
     librarian: "أمين المكتبة",
     labAssistants: "مساعدو المختبر",
+
+    /** =============================================
+     *  ACADEMICS SECTION PAGES (عربي)
+     * ============================================= */
+
+    // 1. معلمو الصف
+    classTeachersTitle: "معلمو الصف",
+    classTeachersSubtitle: "تعرف على معلمينا المتفانين",
+    classTeachersIntro: "يلتزم معلمو صفوفنا بتوفير الاهتمام والتوجيه الشخصي لكل طالب، مما يضمن التميز الأكاديمي وتنمية الشخصية.",
+
+    // 2. مستويات التعليم
+    levelsTitle: "مستويات التعليم",
+    levelsSubtitle: "مراحل التعلم التقدمية",
+    levelsIntro: "نظامنا التعليمي الشامل منظم عبر مستويات متعددة، من الدراسات الابتدائية إلى المتقدمة.",
+    levelPrimary: "المستوى الابتدائي (الصف 1-5)",
+    levelPrimaryText: "الأساس في الدراسات الإسلامية والأكاديمية الأساسية",
+    levelSecondary: "المستوى الثانوي (الصف 6-10)",
+    levelSecondaryText: "المعرفة الإسلامية المتقدمة مع المواد الحديثة",
+    levelHigher: "الثانوية العليا (الصف 11-12)",
+    levelHigherText: "التخصص في العلوم الإسلامية والتعليم المعاصر",
+
+    // 3. المنهج الدراسي
+    curriculumTitle: "المنهج الدراسي",
+    curriculumSubtitle: "إطار التعلم المتكامل",
+    curriculumIntro: "منهجنا الدراسي يمزج بسلاسة بين التعليم الإسلامي التقليدي والمواد الأكاديمية الحديثة.",
+    curriculumIslamic: "الدراسات الإسلامية",
+    curriculumIslamicText: "القرآن، الحديث، الفقه، اللغة العربية، والتاريخ الإسلامي",
+    curriculumModern: "المواد الحديثة",
+    curriculumModernText: "الرياضيات، العلوم، الإنجليزية، البنغالية، الدراسات الاجتماعية، وعلوم الحاسوب",
+
+    // 4. الأنشطة المشتركة
+    coCurriculumTitle: "الأنشطة اللامنهجية",
+    coCurriculumSubtitle: "خارج الفصل الدراسي",
+    coCurriculumIntro: "نؤمن بالتطوير الشامل من خلا ل برامج متنوعة خارج المنهج.",
+    coCurriculumSports: "الرياضة والألعاب",
+    coCurriculumArts: "الفنون والحرف الإسلامية",
+    coCurriculumDebate: "المناظرات والمسابقات",
+    coCurriculumCultural: "البرامج الثقافية",
+
+    // 5. الفعاليات والأحداث
+    functionsTitle: "الفعاليات والأحداث",
+    functionsSubtitle: "احتفالات مجتمعنا",
+    functionsIntro: "طوال العام، ننظم العديد من البرامج التعليمية والثقافية.",
+    functionsAnnual: "اليوم السنوي",
+    functionsSports: "يوم الرياضة",
+    functionsIslamic: "البرامج الإسلامية",
+    functionsAcademic: "الفعاليات الأكاديمية",
+
+    // 6. النتائج
+    resultsTitle: "النتائج الأكاديمية",
+    resultsSubtitle: "التميز في الأداء",
+    resultsIntro: "يحقق طلابنا باستمرار نتائج متميزة في امتحانات المجلس والتقييمات الداخلية.",
+
+    // 7. طريقة الامتحان
+    examMethodTitle: "طريقة الامتحان",
+    examMethodSubtitle: "التقييم والتقويم",
+    examMethodIntro: "نظام الامتحانات لدينا مصمم لتقييم تعلم الطلاب وتقدمهم بشكل شامل.",
+    examTypes: "أنواع الامتحانات",
+    examInternal: "التقييمات الداخلية",
+    examTerminal: "الامتحانات النهائية",
+    examBoard: "امتحانات المجلس",
+
+    // 8. قائمة العطل
+    holidayListTitle: "قائمة العطل",
+    holidayListSubtitle: "استراحات التقويم الأكاديمي",
+    holidayListIntro: "العطل المهمة وفترات الإجازات طوال العام الدراسي.",
+
+    // 9. جدول الامتحانات
+    examRoutineTitle: "جدول الامتحانات",
+    examRoutineSubtitle: "تواريخ التقييم المجدولة",
+    examRoutineIntro: "جدول مفصل للامتحانات والتقييمات القادمة.",
+
+    // 10. جدول الصف
+    classRoutineTitle: "جدول الصف",
+    classRoutineSubtitle: "جدول الصف اليومي",
+    classRoutineIntro: "جدول يومي منظم لجميع الصفوف والمواد.",
   }
 };
 
