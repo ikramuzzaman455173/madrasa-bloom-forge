@@ -488,6 +488,22 @@ const translations = {
     pubWallMagazineSubtitle: "Student Creativity Showcase",
     pubOthersTitle: "Other Publications",
     pubOthersSubtitle: "Additional Reading Materials",
+
+    /** =============================================
+     *  LIBRARY SECTION PAGES
+     * ============================================= */
+
+    libIntroTitle: "Library Introduction",
+    libIntroSubtitle: "Gateway to Knowledge",
+    libIntroText: "Our comprehensive library provides access to thousands of books, journals, and digital resources covering Islamic studies and modern sciences.",
+
+    libCatalogTitle: "Library Catalog",
+    libCatalogSubtitle: "Browse Our Collection",
+    libCatalogText: "Explore our extensive collection of books, reference materials, and digital resources available for students and faculty.",
+
+    libPolicyTitle: "Library Policy",
+    libPolicySubtitle: "Rules & Guidelines",
+    libPolicyText: "Please familiarize yourself with our library policies to ensure smooth access and proper use of resources.",
   },
 
   bn: {
@@ -944,6 +960,43 @@ const translations = {
     academicTime: "একাডেমিক সময়",
     eveningActivities: "সন্ধ্যার কার্যক্রম",
     nightRoutine: "রাতের রুটিন",
+
+    /** =============================================
+     *  PUBLICATION SECTION PAGES (বাংলা)
+     * ============================================= */
+
+    pubNewBikashTitle: "নয়া বিকাশ ম্যাগাজিন",
+    pubNewBikashSubtitle: "আমাদের মাসিক প্রকাশনা",
+    pubEventScheduleTitle: "ইভেন্ট সময়সূচী",
+    pubEventScheduleSubtitle: "আসন্ন কার্যক্রম ও অনুষ্ঠান",
+    pubStudyTourTitle: "শিক্ষা ভ্রমণ",
+    pubStudyTourSubtitle: "শিক্ষামূলক ভ্রমণ",
+    pubYearlyActivityTitle: "বার্ষিক কার্যক্রম রিপোর্ট",
+    pubYearlyActivitySubtitle: "বার্ষিক অর্জন ও ইভেন্ট",
+    pubAcademicCalendarTitle: "শিক্ষাবর্ষ ক্যালেন্ডার",
+    pubAcademicCalendarSubtitle: "গুরুত্বপূর্ণ একাডেমিক তারিখ",
+    pubSautunNajatTitle: "সাউতুন নাজাত",
+    pubSautunNajatSubtitle: "ইসলামিক নির্দেশনা প্রকাশনা",
+    pubWallMagazineTitle: "ওয়াল ম্যাগাজিন",
+    pubWallMagazineSubtitle: "শিক্ষার্থীদের সৃজনশীলতার প্রদর্শনী",
+    pubOthersTitle: "অন্যান্য প্রকাশনা",
+    pubOthersSubtitle: "অতিরিক্ত পাঠ্য সামগ্রী",
+
+    /** =============================================
+     *  LIBRARY SECTION PAGES (বাংলা)
+     * ============================================= */
+
+    libIntroTitle: "লাইব্রেরি পরিচিতি",
+    libIntroSubtitle: "জ্ঞানের প্রবেশদ্বার",
+    libIntroText: "আমাদের বিস্তৃত লাইব্রেরি ইসলামিক অধ্যয়ন এবং আধুনিক বিজ্ঞান সম্পর্কিত হাজার হাজার বই, জার্নাল এবং ডিজিটাল সম্পদে অ্যাক্সেস প্রদান করে।",
+
+    libCatalogTitle: "লাইব্রেরি ক্যাটালগ",
+    libCatalogSubtitle: "আমাদের সংগ্রহ ব্রাউজ করুন",
+    libCatalogText: "শিক্ষার্থী এবং শিক্ষকদের জন্য উপলব্ধ বই, রেফারেন্স উপকরণ এবং ডিজিটাল সম্পদের আমাদের বিস্তৃত সংগ্রহ অন্বেষণ করুন।",
+
+    libPolicyTitle: "লাইব্রেরি নীতিমালা",
+    libPolicySubtitle: "নিয়ম ও নির্দেশিকা",
+    libPolicyText: "সম্পদের সুষ্ঠু ব্যবহার এবং সহজ অ্যাক্সেস নিশ্চিত করতে অনুগ্রহ করে আমাদের লাইব্রেরি নীতিমালার সাথে পরিচিত হন।",
   },
 
   ar: {
@@ -1402,6 +1455,43 @@ const translations = {
     academicTime: "الوقت الأكاديمي",
     eveningActivities: "الأنشطة المسائية",
     nightRoutine: "الروتين الليلي",
+
+    /** =============================================
+     *  PUBLICATION SECTION PAGES (عربي)
+     * ============================================= */
+
+    pubNewBikashTitle: "مجلة نايا بيكاش",
+    pubNewBikashSubtitle: "منشورنا الشهري",
+    pubEventScheduleTitle: "جدول الفعاليات",
+    pubEventScheduleSubtitle: "البرامج والأنشطة القادمة",
+    pubStudyTourTitle: "جولة دراسية",
+    pubStudyTourSubtitle: "رحلات تعليمية",
+    pubYearlyActivityTitle: "تقرير الأنشطة السنوية",
+    pubYearlyActivitySubtitle: "الإنجازات والفعاليات السنوية",
+    pubAcademicCalendarTitle: "التقويم الأكاديمي",
+    pubAcademicCalendarSubtitle: "التواريخ الأكاديمية المهمة",
+    pubSautunNajatTitle: "سوتون نجاة",
+    pubSautunNajatSubtitle: "منشور الإرشاد الإسلامي",
+    pubWallMagazineTitle: "مجلة الحائط",
+    pubWallMagazineSubtitle: "عرض إبداع الطلاب",
+    pubOthersTitle: "منشورات أخرى",
+    pubOthersSubtitle: "مواد قراءة إضافية",
+
+    /** =============================================
+     *  LIBRARY SECTION PAGES (عربي)
+     * ============================================= */
+
+    libIntroTitle: "مقدمة المكتبة",
+    libIntroSubtitle: "بوابة المعرفة",
+    libIntroText: "توفر مكتبتنا الشاملة الوصول إلى آلاف الكتب والمجلات والموارد الرقمية التي تغطي الدراسات الإسلامية والعلوم الحديثة.",
+
+    libCatalogTitle: "كتالوج المكتبة",
+    libCatalogSubtitle: "تصفح مجموعتنا",
+    libCatalogText: "استكشف مجموعتنا الواسعة من الكتب والمواد المرجعية والموارد الرقمية المتاحة للطلاب وأعضاء هيئة التدريس.",
+
+    libPolicyTitle: "سياسة المكتبة",
+    libPolicySubtitle: "القواعد والإرشادات",
+    libPolicyText: "يرجى التعرف على سياسات مكتبتنا لضمان الوصول السلس والاستخدام السليم للموارد.",
   }
 };
 

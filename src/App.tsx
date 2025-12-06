@@ -58,6 +58,11 @@ import SautunNajat from "./pages/publication/SautunNajat";
 import WallMagazine from "./pages/publication/WallMagazine";
 import Others from "./pages/publication/Others";
 
+// Library Section Pages
+import LibraryIntro from "./pages/library/LibraryIntro";
+import LibraryCatalog from "./pages/library/LibraryCatalog";
+import LibraryPolicy from "./pages/library/LibraryPolicy";
+
 const queryClient = new QueryClient();
 
 const App = () => (
@@ -117,6 +122,11 @@ const App = () => (
             <Route path="/publication/sautun-najat" element={<SautunNajat />} />
             <Route path="/publication/wall-magazine" element={<WallMagazine />} />
             <Route path="/publication/others" element={<Others />} />
+
+            {/* Library Section Routes */}
+            <Route path="/library/intro" element={<LibraryIntro />} />
+            <Route path="/library/catalog" element={<LibraryCatalog />} />
+            <Route path="/library/policy" element={<LibraryPolicy />} />
 
             {/* Other Pages */}
             <Route path="/contact" element={<ContactPage />} />
