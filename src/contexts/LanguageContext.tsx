@@ -547,6 +547,30 @@ const translations = {
     mediaVideosTitle: "Video Gallery",
     mediaVideosSubtitle: "Watch Our Events & Activities",
     mediaVideosIntro: "Discover our institutional activities, special events, student achievements, and educational programs through our video collection.",
+
+    /** =============================================
+     *  LOGIN SECTION PAGES
+     * ============================================= */
+
+    // Student Login
+    loginStudentTitle: "Student Login",
+    loginStudentSubtitle: "Access Your Student Portal",
+    loginStudentWelcome: "Welcome back! Login to access your academic records, assignments, and more.",
+
+    // Teacher Login
+    loginTeacherTitle: "Teacher Login",
+    loginTeacherSubtitle: "Access Teacher Dashboard",
+    loginTeacherWelcome: "Welcome back! Login to manage your classes, students, and academic activities.",
+
+    // Software Login
+    loginSoftwareTitle: "Software Login",
+    loginSoftwareSubtitle: "Access Management System",
+    loginSoftwareWelcome: "Login to access the institutional management software and administrative tools.",
+
+    // Admin Login
+    loginAdminTitle: "Admin Login",
+    loginAdminSubtitle: "Administrator Access",
+    loginAdminWelcome: "Secure administrative access to manage the entire institutional system.",
   },
 
   bn: {
@@ -1083,6 +1107,30 @@ const translations = {
     mediaVideosTitle: "ভিডিও গ্যালারি",
     mediaVideosSubtitle: "আমাদের ইভেন্ট ও কার্যক্রম দেখুন",
     mediaVideosIntro: "আমাদের প্রাতিষ্ঠানিক কার্যক্রম, বিশেষ অনুষ্ঠান, শিক্ষার্থীদের অর্জন এবং শিক্ষামূলক প্রোগ্রামগুলি আমাদের ভিডিও সংগ্রহে আবিষ্কার করুন।",
+
+    /** =============================================
+     *  LOGIN SECTION PAGES (বাংলা)
+     * ============================================= */
+
+    // ছাত্র লগইন
+    loginStudentTitle: "ছাত্র লগইন",
+    loginStudentSubtitle: "আপনার ছাত্র পোর্টাল অ্যাক্সেস করুন",
+    loginStudentWelcome: "স্বাগতম! আপনার একাডেমিক রেকর্ড, অ্যাসাইনমেন্ট এবং আরও অনেক কিছু অ্যাক্সেস করতে লগইন করুন।",
+
+    // শিক্ষক লগইন
+    loginTeacherTitle: "শিক্ষক লগইন",
+    loginTeacherSubtitle: "শিক্ষক ড্যাশবোর্ড অ্যাক্সেস করুন",
+    loginTeacherWelcome: "স্বাগতম! আপনার ক্লাস, শিক্ষার্থী এবং একাডেমিক কার্যক্রম পরিচালনা করতে লগইন করুন।",
+
+    // সফটওয়্যার লগইন
+    loginSoftwareTitle: "সফটওয়্যার লগইন",
+    loginSoftwareSubtitle: "ম্যানেজমেন্ট সিস্টেম অ্যাক্সেস করুন",
+    loginSoftwareWelcome: "প্রাতিষ্ঠানিক ম্যানেজমেন্ট সফটওয়্যার এবং প্রশাসনিক সরঞ্জাম অ্যাক্সেস করতে লগইন করুন।",
+
+    // অ্যাডমিন লগইন
+    loginAdminTitle: "অ্যাডমিন লগইন",
+    loginAdminSubtitle: "প্রশাসক অ্যাক্সেস",
+    loginAdminWelcome: "সম্পূর্ণ প্রাতিষ্ঠানিক সিস্টেম পরিচালনার জন্য সুরক্ষিত প্রশাসনিক অ্যাক্সেস।",
   },
 
   ar: {
@@ -1621,6 +1669,30 @@ const translations = {
     mediaVideosTitle: "معرض الفيديو",
     mediaVideosSubtitle: "شاهد فعالياتنا وأنشطتنا",
     mediaVideosIntro: "اكتشف أنشطتنا المؤسسية والفعاليات الخاصة وإنجازات الطلاب والبرامج التعليمية من خلال مجموعة الفيديو الخاصة بنا.",
+
+    /** =============================================
+     *  LOGIN SECTION PAGES (عربي)
+     * ============================================= */
+
+    // تسجيل دخول الطالب
+    loginStudentTitle: "تسجيل دخول الطالب",
+    loginStudentSubtitle: "الوصول إلى بوابة الطالب",
+    loginStudentWelcome: "مرحبًا بك مرة أخرى! قم بتسجيل الدخول للوصول إلى سجلاتك الأكاديمية والواجبات والمزيد.",
+
+    // تسجيل دخول المعلم
+    loginTeacherTitle: "تسجيل دخول المعلم",
+    loginTeacherSubtitle: "الوصول إلى لوحة المعلم",
+    loginTeacherWelcome: "مرحبًا بك مرة أخرى! قم بتسجيل الدخول لإدارة فصولك وطلابك والأنشطة الأكاديمية.",
+
+    // تسجيل دخول البرنامج
+    loginSoftwareTitle: "تسجيل دخول البرنامج",
+    loginSoftwareSubtitle: "الوصول إلى نظام الإدارة",
+    loginSoftwareWelcome: "قم بتسجيل الدخول للوصول إلى برنامج الإدارة المؤسسية والأدوات الإدارية.",
+
+    // تسجيل دخول المسؤول
+    loginAdminTitle: "تسجيل دخول المسؤول",
+    loginAdminSubtitle: "وصول المسؤول",
+    loginAdminWelcome: "وصول إداري آمن لإدارة نظام المؤسسة بالكامل.",
   }
 };
 

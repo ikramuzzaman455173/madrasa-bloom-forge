@@ -74,6 +74,12 @@ import KitabBranch from "./pages/branches/KitabBranch";
 import PhotoGallery from "./pages/media/PhotoGallery";
 import VideoGallery from "./pages/media/VideoGallery";
 
+// Login Section Pages
+import StudentLogin from "./pages/login/StudentLogin";
+import TeacherLogin from "./pages/login/TeacherLogin";
+import SoftwareLogin from "./pages/login/SoftwareLogin";
+import AdminLogin from "./pages/login/AdminLogin";
+
 const queryClient = new QueryClient();
 
 const App = () => (
@@ -149,6 +155,12 @@ const App = () => (
             {/* Media Section Routes */}
             <Route path="/media/photos" element={<PhotoGallery />} />
             <Route path="/media/videos" element={<VideoGallery />} />
+
+            {/* Login Section Routes */}
+            <Route path="/login/student" element={<StudentLogin />} />
+            <Route path="/login/teacher" element={<TeacherLogin />} />
+            <Route path="/login/software" element={<SoftwareLogin />} />
+            <Route path="/login/admin" element={<AdminLogin />} />
 
             {/* Other Pages */}
             <Route path="/contact" element={<ContactPage />} />
