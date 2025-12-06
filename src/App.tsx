@@ -2,7 +2,7 @@ import { Toaster } from "@/components/ui/toaster";
 import { Toaster as Sonner } from "@/components/ui/sonner";
 import { TooltipProvider } from "@/components/ui/tooltip";
 import { QueryClient, QueryClientProvider } from "@tanstack/react-query";
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { BrowserRouter, Routes, Route, Navigate } from "react-router-dom";
 import { LanguageProvider } from "@/contexts/LanguageContext";
 import ScrollToTop from "@/components/ScrollToTop";
 import Index from "./pages/Index";
@@ -166,6 +166,14 @@ const App = () => (
 
             {/* Other Pages */}
             <Route path="/contact" element={<ContactPage />} />
+
+            {/* Parent Route Redirects */}
+            <Route path="/about" element={<Navigate to="/about/overview" replace />} />
+            <Route path="/academics" element={<Navigate to="/academics/levels" replace />} />
+            <Route path="/admission" element={<Navigate to="/admission/procedure" replace />} />
+            <Route path="/branches" element={<Navigate to="/branches/takhssusi" replace />} />
+            <Route path="/media" element={<Navigate to="/media/photos" replace />} />
+            <Route path="/login" element={<Navigate to="/login/student" replace />} />
 
             {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
             <Route path="*" element={<NotFound />} />

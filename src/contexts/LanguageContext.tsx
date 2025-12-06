@@ -417,7 +417,7 @@ const translations = {
     hostelIntroTitle: "Hostel Introduction",
     hostelIntroSubtitle: "Your Home Away From Home",
     hostelIntroText: "Our residential facilities provide a safe, comfortable, and supportive living environment for students, fostering academic excellence and character development.",
-    hostelFacilities: "Hostel Facilities",
+    // hostelFacilities: "Hostel Facilities",
     hostelCapacity: "Hostel Capacity",
     hostelRooms: "Room Types",
 
@@ -586,8 +586,8 @@ const translations = {
     footerPageKG: "Page-KG",
     footerGrade1to3: "Grade 1-3",
     contactUs: "Contact Us",
-    followUs: "Follow Us",
-    allRightsReserved: "All rights reserved",
+    // followUs: "Follow Us",
+    // allRightsReserved: "All rights reserved",
 
     // Sidebar
     noticeBoard: "Notice Board",
@@ -608,6 +608,14 @@ const translations = {
     publications: "Publications",
     whyChooseUs: "Why Choose Us",
     heroBadge: "Build your future with confidence",
+
+    // 404 Not Found Page
+    pageNotFoundTitle: "Oops! Page Not Found",
+    pageNotFoundMessage: "The page you are looking for might have been removed, had its name changed, or is temporarily unavailable.",
+    backToHome: "Back to Home",
+    goBack: "Go Back",
+    notFoundQuickLinks: "Quick Links",
+    needHelp: "Need help? Contact us",
   },
 
   bn: {
@@ -1015,7 +1023,7 @@ const translations = {
     hostelIntroTitle: "হোস্টেল পরিচিতি",
     hostelIntroSubtitle: "আপনার দ্বিতীয় ঘর",
     hostelIntroText: "আমাদের আবাসিক সুবিধাসমূহ শিক্ষার্থীদের জন্য একটি নিরাপদ, আরামদায়ক এবং সহায়ক জীবনযাত্রার পরিবেশ প্রদান করে, যা একাডেমিক উৎকর্ষতা এবং চরিত্র উন্নয়নে সহায়তা করে।",
-    hostelFacilities: "হোস্টেল সুবিধা",
+    // hostelFacilities: "হোস্টেল সুবিধা",
     hostelCapacity: "হোস্টেল ধারণক্ষমতা",
     hostelRooms: "রুমের ধরন",
 
@@ -1183,8 +1191,8 @@ const translations = {
     footerPageKG: "পেজ-কেজি",
     footerGrade1to3: "১ম-৩য় শ্রেণী",
     contactUs: "যোগাযোগ করুন",
-    followUs: "অনুসরণ করুন",
-    allRightsReserved: "সর্বস্বত্ব সংরক্ষিত",
+    // followUs: "অনুসরণ করুন",
+    // allRightsReserved: "সর্বস্বত্ব সংরক্ষিত",
 
     // Sidebar (বাংলা)
     noticeBoard: "নোটিশ বোর্ড",
@@ -1205,6 +1213,14 @@ const translations = {
     publications: "প্রকাশনা",
     whyChooseUs: "কেন আমাদের বেছে নেবেন",
     heroBadge: "আত্মবিশ্বাসের সাথে আপনার ভবিষ্যৎ গড়ুন",
+
+    // 404 Not Found Page (বাংলা)
+    pageNotFoundTitle: "দুঃখিত! পৃষ্ঠা পাওয়া যায়নি",
+    pageNotFoundMessage: "আপনি যে পৃষ্ঠাটি খুঁজছেন তা সরানো হয়ে থাকতে পারে, নাম পরিবর্তন করা হয়েছে, বা সাময়িকভাবে অনুপলব্ধ।",
+    backToHome: "হোমে ফিরে যান",
+    goBack: "পিছনে যান",
+    notFoundQuickLinks: "দ্রুত লিংক",
+    needHelp: "সাহায্য প্রয়োজন? যোগাযোগ করুন",
   },
 
   ar: {
@@ -1614,7 +1630,7 @@ const translations = {
     hostelIntroTitle: "مقدمة السكن",
     hostelIntroSubtitle: "منزلك بعيدًا عن المنزل",
     hostelIntroText: "توفر مرافقنا السكنية بيئة معيشية آمنة ومريحة وداعمة للطلاب، مما يعزز التميز الأكاديمي وتنمية الشخصية.",
-    hostelFacilities: "مرافق السكن",
+    // hostelFacilities: "مرافق السكن",
     hostelCapacity: "سعة السكن",
     hostelRooms: "أنواع الغرف",
 
@@ -1782,8 +1798,8 @@ const translations = {
     footerPageKG: "الحضانة",
     footerGrade1to3: "الصف ١-٣",
     contactUs: "اتصل بنا",
-    followUs: "تابعنا",
-    allRightsReserved: "جميع الحقوق محفوظة",
+    // followUs: "تابعنا",
+    // allRightsReserved: "جميع الحقوق محفوظة",
 
     // Sidebar (عربي)
     noticeBoard: "لوحة الإعلانات",
@@ -1804,6 +1820,14 @@ const translations = {
     publications: "المنشورات",
     whyChooseUs: "لماذا تختارنا",
     heroBadge: "ابن مستقبلك بثقة",
+
+    // 404 Not Found Page (عربي)
+    pageNotFoundTitle: "عذرًا! الصفحة غير موجودة",
+    pageNotFoundMessage: "الصفحة التي تبحث عنها قد تكون قد تمت إزالتها أو تم تغيير اسمها أو غير متاحة مؤقتًا.",
+    backToHome: "العودة إلى الصفحة الرئيسية",
+    goBack: "رجوع",
+    notFoundQuickLinks: "روابط سريعة",
+    needHelp: "هل تحتاج مساعدة؟ اتصل بنا",
   }
 };
 
@@ -1814,10 +1838,15 @@ const LanguageContext = createContext<LanguageContextType | undefined>(
 export const LanguageProvider: React.FC<{ children: React.ReactNode }> = ({
   children
 }) => {
-  const [language, setLanguageState] = useState<Language>("en");
+  // Initialize from localStorage or default to 'en'
+  const [language, setLanguageState] = useState<Language>(() => {
+    const savedLang = localStorage.getItem("language");
+    return (savedLang === "bn" || savedLang === "ar" ? savedLang : "en") as Language;
+  });
 
   const setLanguage = (lang: Language) => {
     setLanguageState(lang);
+    localStorage.setItem("language", lang); // Save to storage
     document.documentElement.setAttribute("dir", lang === "ar" ? "rtl" : "ltr");
     document.documentElement.setAttribute("lang", lang);
   };
@@ -1828,6 +1857,7 @@ export const LanguageProvider: React.FC<{ children: React.ReactNode }> = ({
 
   const isRTL = language === "ar";
 
+  // Update HTML attributes on mount and change
   useEffect(() => {
     document.documentElement.setAttribute("dir", isRTL ? "rtl" : "ltr");
     document.documentElement.setAttribute("lang", language);
