@@ -146,7 +146,7 @@ export const Navigation: React.FC = () => {
     return location.pathname.startsWith(path);
   };
 
-  // 🛠 ROBUST HOVER HANDLING
+  // 🛠 PROFESSIONAL MENU HANDLING (Hover + Click)
   const handleMouseEnter = (key: string) => {
     if (timeoutRef.current) {
       clearTimeout(timeoutRef.current);
@@ -158,8 +158,32 @@ export const Navigation: React.FC = () => {
   const handleMouseLeave = () => {
     timeoutRef.current = setTimeout(() => {
       setActiveDropdown(null);
-    }, 200); // 200ms delay to allow moving cursor to submenu
+    }, 300); // 300ms delay for smooth transitions
   };
+
+  // Click handler for mobile-friendly interaction
+  const handleMenuClick = (key: string, hasSubmenu: boolean) => {
+    if (hasSubmenu) {
+      if (activeDropdown === key) {
+        setActiveDropdown(null); // Close if already open
+      } else {
+        setActiveDropdown(key); // Open submenu
+      }
+    }
+  };
+
+  // Close dropdown when clicking outside
+  useEffect(() => {
+    const handleClickOutside = (event: MouseEvent) => {
+      const target = event.target as HTMLElement;
+      if (!target.closest('nav')) {
+        setActiveDropdown(null);
+      }
+    };
+
+    document.addEventListener('click', handleClickOutside);
+    return () => document.removeEventListener('click', handleClickOutside);
+  }, []);
 
   return (
     <nav
@@ -219,6 +243,7 @@ export const Navigation: React.FC = () => {
                     </Link>
                   ) : (
                     <button
+                      onClick={() => handleMenuClick(item.key, hasDropdown)}
                       className={`
                         px-3 py-2 text-sm font-medium rounded-md
                         flex items-center gap-1 transition-all duration-200 whitespace-nowrap
@@ -290,10 +315,10 @@ export const Navigation: React.FC = () => {
         <div
           className={`
             lg:hidden overflow-hidden transition-all duration-300 ease-in-out
-            ${mobileOpen ? "max-h-[85vh] opacity-100 mt-2" : "max-h-0 opacity-0 mt-0"}
+            ${mobileOpen ? "max-h-[85vh] opacity-100 mt-4" : "max-h-0 opacity-0 mt-0"}
           `}
         >
-          <div className="py-2 space-y-1 overflow-y-auto max-h-[80vh] pr-1 custom-scrollbar">
+          <div className="py-3 space-y-2 overflow-y-auto max-h-[80vh] px-2 custom-scrollbar">
             {menuItems.map((item) => {
               const hasDropdown = !!item.submenu;
               const isOpen = activeDropdown === item.key;
@@ -306,10 +331,11 @@ export const Navigation: React.FC = () => {
                     <Link to={item.link!}>
                       <div
                         className={`
-                          px-4 py-3 rounded-lg text-sm font-medium transition-colors
+                          px-5 py-3.5 rounded-lg text-base font-medium transition-all duration-200
+                          border border-transparent
                           ${isActive
-                            ? "bg-primary text-white shadow-sm"
-                            : "bg-gray-800/50 text-gray-200 hover:bg-gray-800"
+                            ? "bg-primary text-white shadow-md border-primary"
+                            : "bg-gray-800/50 text-gray-200 hover:bg-gray-800 active:bg-gray-700 border-gray-700/30"
                           }
                         `}
                       >
@@ -323,11 +349,12 @@ export const Navigation: React.FC = () => {
                           setActiveDropdown((prev) => (prev === item.key ? null : item.key))
                         }
                         className={`
-                          w-full px-4 py-3 rounded-lg text-sm font-medium
-                          flex items-center justify-between text-left transition-colors
+                          w-full px-5 py-3.5 rounded-lg text-base font-medium
+                          flex items-center justify-between text-left transition-all duration-200
+                          border border-transparent
                           ${isOpen || isActive
-                            ? "bg-gray-800 text-white"
-                            : "bg-gray-800/50 text-gray-200 hover:bg-gray-800"
+                            ? "bg-gray-800 text-white shadow-sm border-gray-700/50"
+                            : "bg-gray-800/50 text-gray-200 hover:bg-gray-800 active:bg-gray-700 border-gray-700/30"
                           }
                         `}
                       >
@@ -344,25 +371,29 @@ export const Navigation: React.FC = () => {
                       <div
                         className={`
                           transition-all duration-300 ease-in-out overflow-hidden
-                          ${isOpen ? "max-h-[500px] opacity-100" : "max-h-0 opacity-0"}
+                          ${isOpen ? "max-h-[500px] opacity-100 mt-2 mb-1" : "max-h-0 opacity-0"}
                         `}
                       >
-                        <div className="bg-gray-900/50 mt-1 rounded-lg py-1 space-y-0.5 border-l-2 border-gray-700 ml-4">
-                          {item.submenu!.map((sub, idx) => (
-                            <Link key={idx} to={sub.link}>
-                              <div
-                                className={`
-                                  px-4 py-2.5 text-sm mx-1 rounded-md transition-colors
-                                  ${isActivePath(sub.link)
-                                    ? "text-primary font-medium bg-primary/10"
-                                    : "text-gray-400 hover:text-white hover:bg-white/5"
-                                  }
-                                `}
-                              >
-                                {t(sub.label)}
-                              </div>
-                            </Link>
-                          ))}
+                        <div className="bg-gray-900/50 rounded-lg py-2 space-y-1 border border-gray-700/30 ml-3 pl-4 pr-2">
+                          {item.submenu!.map((sub, idx) => {
+                            const isSubActive = isActivePath(sub.link);
+                            return (
+                              <Link key={idx} to={sub.link}>
+                                <div
+                                  className={`
+                                    px-4 py-3 text-sm rounded-md transition-all duration-200
+                                    border border-transparent
+                                    ${isSubActive
+                                      ? "text-white font-semibold bg-primary/20 border-l-2 border-primary pl-3 my-2"
+                                      : "text-gray-400 hover:text-white hover:bg-white/5 hover:pl-3 hover:border-gray-600/30 active:bg-white/10"
+                                    }
+                                  `}
+                                >
+                                  {t(sub.label)}
+                                </div>
+                              </Link>
+                            );
+                          })}
                         </div>
                       </div>
                     </>

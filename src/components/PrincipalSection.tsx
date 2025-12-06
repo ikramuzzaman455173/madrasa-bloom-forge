@@ -33,7 +33,7 @@ export const PrincipalSection = () => {
             <div className="
               w-12 h-12
               rounded-full
-              bg-gradient-to-br from-primary to-accent
+              bg-gradient-to-br from-primary to-primary/90
               flex items-center justify-center
               shadow-md
               ring-2 ring-primary/30 ring-offset-2
