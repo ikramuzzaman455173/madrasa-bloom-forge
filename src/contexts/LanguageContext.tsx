@@ -607,6 +607,7 @@ const translations = {
     libraryResources: "Library Resources",
     publications: "Publications",
     whyChooseUs: "Why Choose Us",
+    heroBadge: "Build your future with confidence",
   },
 
   bn: {
@@ -1203,6 +1204,7 @@ const translations = {
     libraryResources: "লাইব্রেরি সম্পদ",
     publications: "প্রকাশনা",
     whyChooseUs: "কেন আমাদের বেছে নেবেন",
+    heroBadge: "আত্মবিশ্বাসের সাথে আপনার ভবিষ্যৎ গড়ুন",
   },
 
   ar: {
@@ -1801,6 +1803,7 @@ const translations = {
     libraryResources: "موارد المكتبة",
     publications: "المنشورات",
     whyChooseUs: "لماذا تختارنا",
+    heroBadge: "ابن مستقبلك بثقة",
   }
 };
 

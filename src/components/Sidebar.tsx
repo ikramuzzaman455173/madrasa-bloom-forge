@@ -60,7 +60,7 @@ export const Sidebar = () => {
                 <h3 className="font-bold text-lg text-primary">Principal</h3>
               </div>
               <h4 className="font-semibold text-foreground mb-1">
-                Abul Khair Muhammad Abu Bakr Siddique
+                Prof. Dr. Muhammad Ahmad
               </h4>
               <p className="text-xs text-muted-foreground">
                 B.A. (Hons), M.A. (University of Dhaka), M.A.M. (1st Class)

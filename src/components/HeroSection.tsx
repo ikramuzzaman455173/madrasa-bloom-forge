@@ -483,6 +483,7 @@
 import { useRef } from "react";
 import { useLanguage } from "@/contexts/LanguageContext";
 import { Button } from "@/components/ui/button";
+import { Link } from "react-router-dom";
 import {
   Carousel,
   CarouselContent,
@@ -552,18 +553,16 @@ export const HeroSection = () => {
                 {/* Content */}
                 <div className="absolute inset-0 flex items-center justify-center px-4">
                   <div
-                    className={`max-w-3xl text-white space-y-4 md:space-y-6 animate-in fade-in-50 slide-in-from-bottom-6 duration-700 ${
-                      isRTL ? "text-right" : "text-center"
-                    }`}
+                    className={`max-w-3xl text-white space-y-4 md:space-y-6 animate-in fade-in-50 slide-in-from-bottom-6 duration-700 ${isRTL ? "text-right" : "text-center"
+                      }`}
                   >
                     {/* Small badge / eyebrow text */}
                     <div
-                      className={`inline-flex items-center gap-2 rounded-full bg-white/10 px-4 py-1 text-xs md:text-sm font-medium tracking-wide backdrop-blur-sm border border-white/15 ${
-                        isRTL ? "ml-auto" : "mr-auto md:mx-auto"
-                      }`}
+                      className={`inline-flex items-center gap-2 rounded-full bg-white/10 px-4 py-1 text-xs md:text-sm font-medium tracking-wide backdrop-blur-sm border border-white/15 ${isRTL ? "ml-auto" : "mr-auto md:mx-auto"
+                        }`}
                     >
                       <span className="inline-block h-2 w-2 rounded-full bg-emerald-400" />
-                      <span>Build your future with confidence</span>
+                      <span>{t('heroBadge')}</span>
                     </div>
 
                     {/* Main heading */}
@@ -578,29 +577,32 @@ export const HeroSection = () => {
 
                     {/* CTA buttons */}
                     <div
-                      className={`flex flex-col sm:flex-row gap-3 sm:gap-4 justify-center mt-2 md:mt-4 ${
-                        isRTL ? "sm:flex-row-reverse" : ""
-                      }`}
+                      className={`flex flex-col sm:flex-row gap-3 sm:gap-4 justify-center mt-2 md:mt-4 ${isRTL ? "sm:flex-row-reverse" : ""
+                        }`}
                     >
-                      {/* Primary CTA */}
-                      <Button
-                        size="lg"
-                        className="px-7 md:px-9 py-5 md:py-6 text-base md:text-lg font-semibold shadow-lg rounded-xl backdrop-blur-md bg-emerald-500 hover:bg-emerald-400 hover:shadow-xl transition-all duration-300 hover:-translate-y-0.5 focus-visible:ring-2 focus-visible:ring-emerald-300"
-                      >
-                        <span className="flex items-center gap-2">
-                          {t("applyNow")}
-                          <ArrowRight className="h-4 w-4 md:h-5 md:w-5" />
-                        </span>
-                      </Button>
+                      {/* Primary CTA - Apply Now */}
+                      <Link to="/admission/procedure">
+                        <Button
+                          size="lg"
+                          className="px-7 md:px-9 py-5 md:py-6 text-base md:text-lg font-semibold shadow-lg rounded-xl backdrop-blur-md bg-emerald-500 hover:bg-emerald-400 hover:shadow-xl transition-all duration-300 hover:-translate-y-0.5 focus-visible:ring-2 focus-visible:ring-emerald-300"
+                        >
+                          <span className="flex items-center gap-2">
+                            {t("applyNow")}
+                            <ArrowRight className="h-4 w-4 md:h-5 md:w-5" />
+                          </span>
+                        </Button>
+                      </Link>
 
-                      {/* Secondary CTA */}
-                      <Button
-                        size="lg"
-                        variant="outline"
-                        className="px-7 md:px-9 py-5 md:py-6 text-base md:text-lg font-medium rounded-xl border-white/70 text-white hover:bg-white hover:text-black hover:shadow-xl transition-all duration-300 hover:-translate-y-0.5 bg-white/5 backdrop-blur-md focus-visible:ring-2 focus-visible:ring-white/70"
-                      >
-                        {t("learnMore")}
-                      </Button>
+                      {/* Secondary CTA - Learn More */}
+                      <Link to="/about/overview">
+                        <Button
+                          size="lg"
+                          variant="outline"
+                          className="px-7 md:px-9 py-5 md:py-6 text-base md:text-lg font-medium rounded-xl border-white/70 text-white hover:bg-white hover:text-black hover:shadow-xl transition-all duration-300 hover:-translate-y-0.5 bg-white/5 backdrop-blur-md focus-visible:ring-2 focus-visible:ring-white/70"
+                        >
+                          {t("learnMore")}
+                        </Button>
+                      </Link>
                     </div>
                   </div>
                 </div>
