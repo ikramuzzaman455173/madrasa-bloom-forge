@@ -2,6 +2,7 @@ import React from "react";
 import { Header } from "@/components/Header";
 import { Navigation } from "@/components/Navigation";
 import { Footer } from "@/components/Footer";
+import { Sidebar } from "@/components/Sidebar";
 import { useLanguage } from "@/contexts/LanguageContext";
 
 interface PageLayoutProps {
@@ -38,10 +39,22 @@ export const PageLayout: React.FC<PageLayoutProps> = ({
                 </div>
             )}
 
-            {/* Main Content */}
-            <main className="flex-1 container mx-auto px-4 py-8 md:py-12">
-                {children}
-            </main>
+            {/* Main Content with Sidebar */}
+            <div className="flex-1">
+                <div className="container mx-auto px-4 py-8 md:py-12">
+                    <div className="grid grid-cols-1 lg:grid-cols-12 gap-8">
+                        {/* Main Content Area */}
+                        <main className="lg:col-span-8 xl:col-span-9">
+                            {children}
+                        </main>
+
+                        {/* Sidebar */}
+                        <aside className="lg:col-span-4 xl:col-span-3">
+                            <Sidebar />
+                        </aside>
+                    </div>
+                </div>
+            </div>
 
             <Footer />
         </div>

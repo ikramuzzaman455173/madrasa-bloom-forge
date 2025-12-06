@@ -588,6 +588,11 @@ const translations = {
     contactUs: "Contact Us",
     followUs: "Follow Us",
     allRightsReserved: "All rights reserved",
+
+    // Sidebar
+    noticeBoard: "Notice Board",
+    formDownload: "Form Download",
+    academicCalendar: "Academic Calendar",
   },
 
   bn: {
@@ -1165,6 +1170,11 @@ const translations = {
     contactUs: "যোগাযোগ করুন",
     followUs: "অনুসরণ করুন",
     allRightsReserved: "সর্বস্বত্ব সংরক্ষিত",
+
+    // Sidebar (বাংলা)
+    noticeBoard: "নোটিশ বোর্ড",
+    formDownload: "ফর্ম ডাউনলোড",
+    academicCalendar: "একাডেমিক ক্যালেন্ডার",
   },
 
   ar: {
@@ -1744,6 +1754,11 @@ const translations = {
     contactUs: "اتصل بنا",
     followUs: "تابعنا",
     allRightsReserved: "جميع الحقوق محفوظة",
+
+    // Sidebar (عربي)
+    noticeBoard: "لوحة الإعلانات",
+    formDownload: "تحميل النماذج",
+    academicCalendar: "التقويم الأكاديمي",
   }
 };
 
