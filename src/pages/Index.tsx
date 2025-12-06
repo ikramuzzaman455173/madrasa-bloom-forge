@@ -4,8 +4,10 @@ import { HeroSection } from "@/components/HeroSection";
 import { PrincipalSection } from "@/components/PrincipalSection";
 import { Sidebar } from "@/components/Sidebar";
 import { Footer } from "@/components/Footer";
-
 import FeatureSection from "@/components/FeatureSection";
+import StatsSection from "@/components/StatsSection";
+import QuickAccessSection from "@/components/QuickAccessSection";
+
 const Index = () => {
   return (
     <div className="min-h-screen flex flex-col bg-background">
@@ -18,6 +20,8 @@ const Index = () => {
           {/* Main Content */}
           <div className="lg:col-span-2 space-y-8">
             <PrincipalSection />
+            <StatsSection />
+            <QuickAccessSection />
             <FeatureSection />
           </div>
 

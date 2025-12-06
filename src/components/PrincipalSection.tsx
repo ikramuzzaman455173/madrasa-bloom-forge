@@ -16,7 +16,7 @@ export const PrincipalSection = () => {
     <div className="animate-fadeIn">
       <Card className="
         shadow-xl
-        border-t-4 border-t-accent
+        border-t-4 border-t-primary
         rounded-xl
         transition-all duration-300
         hover:shadow-2xl

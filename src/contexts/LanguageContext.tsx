@@ -593,6 +593,19 @@ const translations = {
     noticeBoard: "Notice Board",
     formDownload: "Form Download",
     academicCalendar: "Academic Calendar",
+
+    // Home Page Stats & Quick Access
+    institutionStats: "Institution Statistics",
+    totalStudents: "Total Students",
+    qualifiedTeachers: "Qualified Teachers",
+    departments: "Departments",
+    yearsExperience: "Years of Experience",
+    quickAccess: "Quick Access",
+    admissionInfo: "Admission Info",
+    academicPrograms: "Academic Programs",
+    ourBranches: "Our Branches",
+    libraryResources: "Library Resources",
+    publications: "Publications",
   },
 
   bn: {
@@ -1175,6 +1188,19 @@ const translations = {
     noticeBoard: "নোটিশ বোর্ড",
     formDownload: "ফর্ম ডাউনলোড",
     academicCalendar: "একাডেমিক ক্যালেন্ডার",
+
+    // Home Page Stats & Quick Access (বাংলা)
+    institutionStats: "প্রতিষ্ঠানের পরিসংখ্যান",
+    totalStudents: "মোট শিক্ষার্থী",
+    qualifiedTeachers: "যোগ্য শিক্ষক",
+    departments: "বিভাগ",
+    yearsExperience: "অভিজ্ঞতার বছর",
+    quickAccess: "দ্রুত প্রবেশ",
+    admissionInfo: "ভর্তি তথ্য",
+    academicPrograms: "শিক্ষা কার্যক্রম",
+    ourBranches: "আমাদের শাখা",
+    libraryResources: "লাইব্রেরি সম্পদ",
+    publications: "প্রকাশনা",
   },
 
   ar: {
@@ -1759,6 +1785,19 @@ const translations = {
     noticeBoard: "لوحة الإعلانات",
     formDownload: "تحميل النماذج",
     academicCalendar: "التقويم الأكاديمي",
+
+    // Home Page Stats & Quick Access (عربي)
+    institutionStats: "إحصائيات المؤسسة",
+    totalStudents: "إجمالي الطلاب",
+    qualifiedTeachers: "المعلمون المؤهلون",
+    departments: "الأقسام",
+    yearsExperience: "سنوات الخبرة",
+    quickAccess: "الوصول السريع",
+    admissionInfo: "معلومات القبول",
+    academicPrograms: "البرامج الأكاديمية",
+    ourBranches: "فروعنا",
+    libraryResources: "موارد المكتبة",
+    publications: "المنشورات",
   }
 };
 
