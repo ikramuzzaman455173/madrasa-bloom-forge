@@ -606,6 +606,7 @@ const translations = {
     ourBranches: "Our Branches",
     libraryResources: "Library Resources",
     publications: "Publications",
+    whyChooseUs: "Why Choose Us",
   },
 
   bn: {
@@ -1201,6 +1202,7 @@ const translations = {
     ourBranches: "আমাদের শাখা",
     libraryResources: "লাইব্রেরি সম্পদ",
     publications: "প্রকাশনা",
+    whyChooseUs: "কেন আমাদের বেছে নেবেন",
   },
 
   ar: {
@@ -1798,6 +1800,7 @@ const translations = {
     ourBranches: "فروعنا",
     libraryResources: "موارد المكتبة",
     publications: "المنشورات",
+    whyChooseUs: "لماذا تختارنا",
   }
 };
 
