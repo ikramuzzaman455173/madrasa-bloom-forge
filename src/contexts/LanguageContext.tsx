@@ -357,6 +357,57 @@ const translations = {
     classRoutineTitle: "Class Routine",
     classRoutineSubtitle: "Daily class Schedule",
     classRoutineIntro: "Structured daily timetable for all classes and subjects.",
+
+    /** =============================================
+     *  ADMISSION SECTION PAGES
+     * ============================================= */
+
+    // 1. Admission Time
+    admissionTimeTitle: "Admission Time & Schedule",
+    admissionTimeSubtitle: "When to Apply",
+    admissionTimeIntro: "Our admission process runs annually with specific timelines for each academic level. Plan ahead to ensure a smooth application process.",
+    admissionSession: "Academic Session",
+    admissionPeriod: "Admission Period",
+    admissionDeadline: "Application Deadline",
+
+    // 2. Admission Test
+    admissionTestTitle: "Admission Test",
+    admissionTestSubtitle: "Assessment & Evaluation",
+    admissionTestIntro: "All prospective students must pass an admission test to demonstrate their readiness for our integrated curriculum.",
+    testSubjects: "Test Subjects",
+    testFormat: "Test Format",
+    testDuration: "Test Duration",
+    testPreparation: "How to Prepare",
+
+    // 3. Admission Procedure
+    admissionProcedureTitle: "Admission Procedure",
+    admissionProcedureSubtitle: "Step-by-Step Guide",
+    admissionProcedureIntro: "Follow these simple steps to complete your admission application successfully.",
+    procedureStep1: "Collect Application Form",
+    procedureStep2: "Submit Required Documents",
+    procedureStep3: "Pay Application Fee",
+    procedureStep4: "Appear for Admission Test",
+    procedureStep5: "Merit List Publication",
+    procedureStep6: "Final Admission & Fee Payment",
+
+    // 4. Admission Fees
+    admissionFeesTitle: "Admission Fees",
+    admissionFeesSubtitle: "Fee Structure & Payment",
+    admissionFeesIntro: "Our fee structure is designed to be affordable while maintaining high-quality education standards.",
+    applicationFee: "Application Fee",
+    admissionFee: "Admission Fee",
+    monthlyTuition: "Monthly Tuition",
+    annualFees: "Annual Fees",
+    paymentMethods: "Payment Methods",
+
+    // 5. Admission Terms & Conditions
+    admissionTermsTitle: "Terms & Conditions",
+    admissionTermsSubtitle: "Important Guidelines",
+    admissionTermsIntro: "Please read and understand these terms and conditions before applying for admission.",
+    eligibilityCriteria: "Eligibility Criteria",
+    requiredDocuments: "Required Documents",
+    admissionRules: "Admission Rules",
+    withdrawalPolicy: "Withdrawal Policy",
   },
 
   bn: {
@@ -704,6 +755,57 @@ const translations = {
     classRoutineTitle: "ক্লাস রুটিন",
     classRoutineSubtitle: "দৈনিক ক্লাস সময়সূচী",
     classRoutineIntro: "সমস্ত শ্রেণী এবং বিষয়ের জন্য কাঠামোবদ্ধ দৈনিক সময়সূচী।",
+
+    /** =============================================
+     *  ADMISSION SECTION PAGES (বাংলা)
+     * ============================================= */
+
+    // 1. ভর্তির সময়
+    admissionTimeTitle: "ভর্তির সময় ও সূচি",
+    admissionTimeSubtitle: "কখন আবেদন করবেন",
+    admissionTimeIntro: "আমাদের ভর্তি প্রক্রিয়া প্রতি শিক্ষাবর্ষে নির্দিষ্ট সময়সূচি অনুযায়ী পরিচালিত হয়। একটি সুগম আবেদন প্রক্রিয়া নিশ্চিত করতে আগে থেকেই পরিকল্পনা করুন।",
+    admissionSession: "শিক্ষাবর্ষ",
+    admissionPeriod: "ভর্তির সময়কাল",
+    admissionDeadline: "আবেদনের শেষ তারিখ",
+
+    // 2. ভর্তি পরীক্ষা
+    admissionTestTitle: "ভর্তি পরীক্ষা",
+    admissionTestSubtitle: "মূল্যায়ন ও পরিমাপ",
+    admissionTestIntro: "সকল প্রত্যাশী শিক্ষার্থীকে আমাদের সমন্বিত পাঠ্যক্রমের জন্য তাদের প্রস্তুতি প্রদর্শনের জন্য একটি ভর্তি পরীক্ষায় উত্তীর্ণ হতে হবে।",
+    testSubjects: "পরীক্ষার বিষয়",
+    testFormat: "পরীক্ষার ধরণ",
+    testDuration: "পরীক্ষার সময়কাল",
+    testPreparation: "কীভাবে প্রস্তুতি নেবেন",
+
+    // 3. ভর্তি পদ্ধতি
+    admissionProcedureTitle: "ভর্তি পদ্ধতি",
+    admissionProcedureSubtitle: "ধাপে ধাপে নির্দেশিকা",
+    admissionProcedureIntro: "আপনার ভর্তি আবেদন সফলভাবে সম্পন্ন করতে এই সহজ ধাপগুলি অনুসরণ করুন।",
+    procedureStep1: "আবেদন ফর্ম সংগ্রহ করুন",
+    procedureStep2: "প্রয়োজনীয় কাগজপত্র জমা দিন",
+    procedureStep3: "আবেদন ফি পরিশোধ করুন",
+    procedureStep4: "ভর্তি পরীক্ষায় অংশগ্রহণ করুন",
+    procedureStep5: "মেধা তালিকা প্রকাশ",
+    procedureStep6: "চূড়ান্ত ভর্তি ও ফি পরিশোধ",
+
+    // 4. ভর্তি ফি
+    admissionFeesTitle: "ভর্তি ফি",
+    admissionFeesSubtitle: "ফি কাঠামো ও পেমেন্ট",
+    admissionFeesIntro: "আমাদের ফি কাঠামো সাশ্রয়ী হওয়ার পাশাপাশি উচ্চমানের শিক্ষা মান বজায় রাখার জন্য ডিজাইন করা হয়েছে।",
+    applicationFee: "আবেদন ফি",
+    admissionFee: "ভর্তি ফি",
+    monthlyTuition: "মাসিক বেতন",
+    annualFees: "বার্ষিক ফি",
+    paymentMethods: "পেমেন্ট পদ্ধতি",
+
+    // 5. ভর্তির শর্তাবলী
+    admissionTermsTitle: "শর্তাবলী",
+    admissionTermsSubtitle: "গুরুত্বপূর্ণ নির্দেশনা",
+    admissionTermsIntro: "ভর্তির জন্য আবেদন করার আগে অনুগ্রহ করে এই শর্তাবলী পড়ুন এবং বুঝুন।",
+    eligibilityCriteria: "যোগ্যতার মানদণ্ড",
+    requiredDocuments: "প্রয়োজনীয় কাগজপত্র",
+    admissionRules: "ভর্তির নিয়মাবলী",
+    withdrawalPolicy: "প্রত্যাহার নীতি",
   },
 
   ar: {
@@ -1053,6 +1155,57 @@ const translations = {
     classRoutineTitle: "جدول الصف",
     classRoutineSubtitle: "جدول الصف اليومي",
     classRoutineIntro: "جدول يومي منظم لجميع الصفوف والمواد.",
+
+    /** =============================================
+     *  ADMISSION SECTION PAGES (عربي)
+     * ============================================= */
+
+    // 1. وقت القبول
+    admissionTimeTitle: "وقت القبول والجدول",
+    admissionTimeSubtitle: "متى تتقدم",
+    admissionTimeIntro: "تتم عملية القبول لدينا سنويًا مع جداول زمنية محددة لكل مستوى أكاديمي. خطط مسبقًا لضمان عملية تقديم سلسة.",
+    admissionSession: "الجلسة الأكاديمية",
+    admissionPeriod: "فترة القبول",
+    admissionDeadline: "الموعد النهائي للتطبيق",
+
+    // 2. اختبار القبول
+    admissionTestTitle: "اختبار القبول",
+    admissionTestSubtitle: "التقييم والتقويم",
+    admissionTestIntro: "يجب على جميع الطلاب المحتملين اجتياز اختبار القبول لإثبات استعدادهم لمنهجنا المتكامل.",
+    testSubjects: "مواد الاختبار",
+    testFormat: "شكل الاختبار",
+    testDuration: "مدة الاختبار",
+    testPreparation: "كيفية التحضير",
+
+    // 3. إجراءات القبول
+    admissionProcedureTitle: "إجراءات القبول",
+    admissionProcedureSubtitle: "دليل خطوة بخطوة",
+    admissionProcedureIntro: "اتبع هذه الخطوات البسيطة لإكمال طلب القبول الخاص بك بنجاح.",
+    procedureStep1: "جمع استمارة التقديم",
+    procedureStep2: "تقديم المستندات المطلوبة",
+    procedureStep3: "دفع رسوم التقديم",
+    procedureStep4: "الحضور لاختبار القبول",
+    procedureStep5: "نشر قائمة الاستحقاق",
+    procedureStep6: "القبول النهائي ودفع الرسوم",
+
+    // 4. رسوم القبول
+    admissionFeesTitle: "رسوم القبول",
+    admissionFeesSubtitle: "هيكل الرسوم والدفع",
+    admissionFeesIntro: "تم تصميم هيكل الرسوم لدينا ليكون ميسور التكلفة مع الحفاظ على معايير التعليم عالية الجودة.",
+    applicationFee: "رسوم التقديم",
+    admissionFee: "رسوم القبول",
+    monthlyTuition: "الرسوم الشهرية",
+    annualFees: "الرسوم السنوية",
+    paymentMethods: "طرق الدفع",
+
+    // 5. شروط القبول
+    admissionTermsTitle: "الشروط والأحكام",
+    admissionTermsSubtitle: "إرشادات مهمة",
+    admissionTermsIntro: "يرجى قراءة وفهم هذه الشروط والأحكام قبل التقدم للقبول.",
+    eligibilityCriteria: "معايير الأهلية",
+    requiredDocuments: "المستندات المطلوبة",
+    admissionRules: "قواعد القبول",
+    withdrawalPolicy: "سياسة الانسحاب",
   }
 };
 

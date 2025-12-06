@@ -33,6 +33,13 @@ import HolidayList from "./pages/academics/HolidayList";
 import ExamRoutine from "./pages/academics/ExamRoutine";
 import ClassRoutine from "./pages/academics/ClassRoutine";
 
+// Admission Section Pages
+import AdmissionTime from "./pages/admission/AdmissionTime";
+import AdmissionTest from "./pages/admission/AdmissionTest";
+import AdmissionProcedure from "./pages/admission/AdmissionProcedure";
+import AdmissionFees from "./pages/admission/AdmissionFees";
+import AdmissionTerms from "./pages/admission/AdmissionTerms";
+
 const queryClient = new QueryClient();
 
 const App = () => (
@@ -67,6 +74,13 @@ const App = () => (
             <Route path="/academics/holiday-list" element={<HolidayList />} />
             <Route path="/academics/exam-routine" element={<ExamRoutine />} />
             <Route path="/academics/class-routine" element={<ClassRoutine />} />
+
+            {/* Admission Section Routes */}
+            <Route path="/admission/time" element={<AdmissionTime />} />
+            <Route path="/admission/test" element={<AdmissionTest />} />
+            <Route path="/admission/procedure" element={<AdmissionProcedure />} />
+            <Route path="/admission/fees" element={<AdmissionFees />} />
+            <Route path="/admission/terms" element={<AdmissionTerms />} />
 
             {/* Other Pages */}
             <Route path="/contact" element={<ContactPage />} />
