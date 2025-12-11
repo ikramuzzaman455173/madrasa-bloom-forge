@@ -14,11 +14,11 @@ export const Sidebar = () => {
 
   const notices = [
     { date: '30', month: 'JAN', year: '2025', title: 'ADMISSION GUIDELINES 2026', color: 'bg-green-700' },
-    { date: '15', month: 'JAN', year: '2025', title: 'HAFEZ RECRUITMENT NOTICE', color: 'bg-green-700' },
-    { date: '29', month: 'DEC', year: '2024', title: 'ADMISSION TEST RESULT TASS (9TH SCIENCE)', color: 'bg-green-700' },
-    { date: '20', month: 'DEC', year: '2024', title: 'EXAM SCHEDULE PUBLISHED', color: 'bg-green-700' },
-    { date: '12', month: 'DEC', year: '2024', title: 'WINTER VACATION NOTICE', color: 'bg-green-700' },
-    { date: '05', month: 'DEC', year: '2024', title: 'ANNUAL SPORTS DAY ANNOUNCEMENT', color: 'bg-green-700' },
+    // { date: '15', month: 'JAN', year: '2025', title: 'HAFEZ RECRUITMENT NOTICE', color: 'bg-green-700' },
+    // { date: '29', month: 'DEC', year: '2024', title: 'ADMISSION TEST RESULT TASS (9TH SCIENCE)', color: 'bg-green-700' },
+    // { date: '20', month: 'DEC', year: '2024', title: 'EXAM SCHEDULE PUBLISHED', color: 'bg-green-700' },
+    // { date: '12', month: 'DEC', year: '2024', title: 'WINTER VACATION NOTICE', color: 'bg-green-700' },
+    // { date: '05', month: 'DEC', year: '2024', title: 'ANNUAL SPORTS DAY ANNOUNCEMENT', color: 'bg-green-700' },
   ];
 
   const forms = [
@@ -60,10 +60,10 @@ export const Sidebar = () => {
                 <h3 className="font-bold text-lg text-primary">Principal</h3>
               </div>
               <h4 className="font-semibold text-foreground mb-1">
-                Prof. Dr. Muhammad Ahmad
+                Mohammad Moin Uddin Sarker Madani
               </h4>
               <p className="text-xs text-muted-foreground">
-                B.A. (Hons), M.A. (University of Dhaka), M.A.M. (1st Class)
+                Kamil (Hadith) IAU, Master's (Quran) IU, Diploma (Arabic) IUM, KSA
               </p>
             </div>
           </div>

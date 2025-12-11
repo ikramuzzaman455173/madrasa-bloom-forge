@@ -620,7 +620,7 @@ const translations = {
 
   bn: {
     /** HEADER & BRAND **/
-    instituteName: "বাংলাদেশ সায়েন্স এন্ড টেকনোলজি মাদ্রাসা",
+    instituteName: "বাংলাদেশ বিজ্ঞান ও প্রযুক্তি মাদরাসা",
     tagline: "ইসলামিক শিক্ষা ও আধুনিক বিজ্ঞানে উৎকর্ষতা",
 
     /** NAVBAR MAIN **/

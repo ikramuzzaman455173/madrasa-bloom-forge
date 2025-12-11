@@ -77,7 +77,7 @@ export const PrincipalSection = () => {
 
               <div className="mt-6 pt-6 border-t border-border/60">
                 <p className="font-semibold text-xl text-primary tracking-wide">
-                  Prof. Dr. Muhammad Ahmad
+                  Mohammad Moin Uddin Sarker Madani
                 </p>
                 <p className="text-sm text-muted-foreground">
                   {t('principal')}

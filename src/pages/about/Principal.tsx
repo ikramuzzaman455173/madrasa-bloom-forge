@@ -41,7 +41,7 @@ const PrincipalPage: React.FC = () => {
                             <div className="space-y-4">
                                 <div className="flex items-center gap-3 text-muted-foreground bg-secondary/30 p-3 rounded-lg">
                                     <GraduationCap className="w-5 h-5 text-primary" />
-                                    <span>Ph.D. in Islamic Studies</span>
+                                    <span>Kamil (Hadith) - Islamic Azad University</span>
                                 </div>
                                 <div className="flex items-center gap-3 text-muted-foreground bg-secondary/30 p-3 rounded-lg">
                                     <Briefcase className="w-5 h-5 text-primary" />
@@ -49,7 +49,7 @@ const PrincipalPage: React.FC = () => {
                                 </div>
                                 <div className="flex items-center gap-3 text-muted-foreground bg-secondary/30 p-3 rounded-lg">
                                     <Award className="w-5 h-5 text-primary" />
-                                    <span>National Education Excellence Award</span>
+                                    <span>Founder & Principal</span>
                                 </div>
                             </div>
                         </div>
@@ -122,19 +122,19 @@ const PrincipalPage: React.FC = () => {
                         <div className="grid gap-4 ml-4">
                             {[
                                 {
-                                    degree: "Ph.D. in Islamic Studies",
-                                    institution: "Islamic University",
-                                    year: "2010",
+                                    degree: "Kamil (Hadith)",
+                                    institution: "Islamic Azad University (IAU)",
+                                    year: "",
                                 },
                                 {
-                                    degree: "M.Sc. in Education Management",
-                                    institution: "Dhaka University",
-                                    year: "2005",
+                                    degree: "Master's (Quran)",
+                                    institution: "Islamic University (IU)",
+                                    year: "",
                                 },
                                 {
-                                    degree: "Bachelor's in Islamic Literature",
-                                    institution: "Leading Madrasa",
-                                    year: "2000",
+                                    degree: "Diploma (Arabic)",
+                                    institution: "Islamic University of Madinah (IUM), KSA",
+                                    year: "",
                                 },
                             ].map((edu, index) => (
                                 <div
@@ -143,7 +143,7 @@ const PrincipalPage: React.FC = () => {
                                 >
                                     <h4 className="font-bold text-foreground text-lg">{edu.degree}</h4>
                                     <p className="text-muted-foreground">{edu.institution}</p>
-                                    <p className="text-sm text-muted-foreground mt-1">{edu.year}</p>
+                                    {edu.year && <p className="text-sm text-muted-foreground mt-1">{edu.year}</p>}
                                 </div>
                             ))}
                         </div>

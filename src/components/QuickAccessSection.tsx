@@ -43,7 +43,8 @@ const QuickAccessSection = () => {
         {
             icon: Building2,
             label: t('ourBranches'),
-            link: '/branches/takhssusi',
+            // link: '/branches/takhssusi',
+            link: '',
             color: 'bg-gradient-to-br from-accent to-accent/90',
             hoverColor: 'hover:from-accent/90 hover:to-accent',
             shadowColor: 'hover:shadow-accent/30'
@@ -51,7 +52,8 @@ const QuickAccessSection = () => {
         {
             icon: Library,
             label: t('libraryResources'),
-            link: '/library/intro',
+            // link: '/library/intro',
+            link: '',
             color: 'bg-gradient-to-br from-primary to-primary-dark',
             hoverColor: 'hover:from-primary-dark hover:to-primary',
             shadowColor: 'hover:shadow-primary/30'
@@ -59,7 +61,8 @@ const QuickAccessSection = () => {
         {
             icon: FileText,
             label: t('publications'),
-            link: '/publication/new-bikash',
+            // link: '/publication/new-bikash',
+            link: '',
             color: 'bg-gradient-to-br from-accent to-accent/90',
             hoverColor: 'hover:from-accent/90 hover:to-accent',
             shadowColor: 'hover:shadow-accent/30'

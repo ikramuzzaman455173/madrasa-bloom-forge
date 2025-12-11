@@ -10,7 +10,7 @@ const StatsSection = () => {
         {
             icon: Users,
             label: t('totalStudents'),
-            value: '2,500+',
+            value: '00',
             color: 'text-primary',
             bg: 'bg-gradient-to-br from-primary/10 to-primary/20',
             borderColor: 'border-primary/30',
@@ -19,7 +19,7 @@ const StatsSection = () => {
         {
             icon: GraduationCap,
             label: t('qualifiedTeachers'),
-            value: '150+',
+            value: '00',
             color: 'text-accent',
             bg: 'bg-gradient-to-br from-accent/10 to-accent/20',
             borderColor: 'border-accent/30',
@@ -28,7 +28,7 @@ const StatsSection = () => {
         {
             icon: BookOpen,
             label: t('departments'),
-            value: '12',
+            value: '00',
             color: 'text-primary',
             bg: 'bg-gradient-to-br from-primary/10 to-primary/20',
             borderColor: 'border-primary/30',
@@ -37,7 +37,7 @@ const StatsSection = () => {
         {
             icon: Award,
             label: t('yearsExperience'),
-            value: '30+',
+            value: '00',
             color: 'text-accent',
             bg: 'bg-gradient-to-br from-accent/10 to-accent/20',
             borderColor: 'border-accent/30',
