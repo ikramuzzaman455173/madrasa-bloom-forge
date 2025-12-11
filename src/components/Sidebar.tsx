@@ -23,15 +23,15 @@ export const Sidebar = () => {
 
   const forms = [
     'Admission Guidelines-2026',
-    'Filled Form from Atfal to Cards',
-    'Admission Form Alim',
-    'Admission Form Fazil (Pass)',
-    'Admission Form Fazil (Hons)',
-    'Scholarship Information Form',
-    'Admission Form Kamil',
-    'Admission Form Kamil (Masters)',
-    'Transfer Certificate Form',
-    'Character Certificate Form',
+    // 'Filled Form from Atfal to Cards',
+    // 'Admission Form Alim',
+    // 'Admission Form Fazil (Pass)',
+    // 'Admission Form Fazil (Hons)',
+    // 'Scholarship Information Form',
+    // 'Admission Form Kamil',
+    // 'Admission Form Kamil (Masters)',
+    // 'Transfer Certificate Form',
+    // 'Character Certificate Form',
   ];
 
   // Show limited items or all

@@ -143,11 +143,11 @@ export const Footer = () => {
               </li>
               <li className="flex items-center gap-3 text-white/70">
                 <Phone className="w-4 h-4 text-accent shrink-0" />
-                <span className="text-xs">+01404-311522</span>
+                <span className="text-xs">+8801404-311522</span>
               </li>
               <li className="flex items-center gap-3 text-white/70">
                 <Mail className="w-4 h-4 text-accent shrink-0" />
-                <span className="text-xs">info@bstmadrasa.edu.bd</span>
+                <span className="text-xs">info@bstm26.com</span>
               </li>
             </ul>
 
@@ -179,7 +179,7 @@ export const Footer = () => {
               © {currentYear} {t("instituteName")}. {t("allRightsReserved")}
             </p>
             <p className="text-xs">
-              Developed with ❤️ by <span className="text-accent">BSTM Team</span>
+              Developed with ❤️ by <a href='https://www.facebook.com/shopnojalit/' target="_blank" className="text-accent">Shopnojal IT</a>
             </p>
           </div>
         </div>
